@@ -1,0 +1,2610 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Главная › Інтернет-магазин</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="robots" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="rus/">
+    <meta property="og:title" content="Главная">
+    <meta property="og:description" content="">
+    <meta property="og:image">
+    <meta property="og:site_name">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Главная">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image">
+    <link rel="canonical" href="rus/">
+    <link rel="shortcut icon" href="Media/demox-000/developer-folder/favicon/favicon.png">
+    <link rel="alternate" hreflang="uk" href="">
+    <link rel="alternate" hreflang="x-default" href="">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        let userInfo;
+        const language = 2;
+        const showCart = true;
+    </script>
+    <noscript>
+        <style type="text/css">
+            span.container-async.loader-async picture.async,
+            img.async {
+                display: none;
+            }
+
+            .loader-async {
+                background-image: none !important;
+            }
+        </style>
+    </noscript>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0
+        }
+
+
+        .sidebar-popup.hidden {
+            display: none
+        }
+
+        .loader .loader-inner {
+            display: none
+        }
+
+        .loader.show .loader-inner {
+            display: block
+        }
+
+        .default-menu-mobile ul {
+            display: none
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box
+        }
+
+        .gridlock section.full-width > .row {
+            width: 100%
+        }
+
+        .gridlock .editor-grid {
+            top: 0;
+            height: 100%;
+            opacity: .25;
+            position: fixed;
+            margin-left: 50%;
+            margin-right: 50%;
+            width: 300px;
+            transform: translateX(-50%)
+        }
+
+        .gridlock .editor-grid [class*="all-"]:not([class*="all-hide"]),
+        .gridlock .editor-grid [class*="min-"]:not([class*="min-hide"]),
+        .gridlock .editor-grid [class*="mobile-"]:not([class*="mobile-hide"]),
+        .gridlock .editor-grid [class*="tablet-"]:not([class*="tablet-hide"]),
+        .gridlock .editor-grid [class*="desktop-"]:not([class*="desktop-hide"]),
+        .gridlock .editor-grid [class*="max-"]:not([class*="max-hide"]) {
+            float: left;
+            height: 100%;
+            margin-left: 1.04166667%;
+            margin-right: 1.04166667%;
+            border-left: 1px solid rgba(0, 0, 0, .25);
+            border-right: 1px solid rgba(0, 0, 0, .25)
+        }
+
+        .gridlock .row {
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        .gridlock .row:after {
+            height: 0;
+            clear: both;
+
+            display: block;
+            line-height: 0;
+            overflow: hidden;
+            visibility: hidden
+        }
+
+        .gridlock .row .row {
+            width: 102.08333333%;
+            margin-left: -1.04166667%;
+            margin-right: -1.04166667%
+        }
+
+        .gridlock .row .contained .row {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0
+        }
+
+        .gridlock .row [class*="all-"]:not([class*="all-hide"]),
+        .gridlock .row [class*="min-"]:not([class*="min-hide"]),
+        .gridlock .row [class*="mobile-"]:not([class*="mobile-hide"]),
+        .gridlock .row [class*="tablet-"]:not([class*="tablet-hide"]),
+        .gridlock .row [class*="desktop-"]:not([class*="desktop-hide"]),
+        .gridlock .row [class*="max-"]:not([class*="max-hide"]) {
+            float: left;
+            margin-left: 1.04166667%;
+            margin-right: 1.04166667%
+        }
+
+        .gridlock .row [class*="all-"].padded:not([class*=all-hide]),
+        .gridlock .row [class*="min-"].padded:not([class*=min-hide]),
+        .gridlock .row [class*="mobile-"].padded:not([class*=mobile-hide]),
+        .gridlock .row [class*="tablet-"].padded:not([class*=tablet-hide]),
+        .gridlock .row [class*="desktop-"].padded:not([class*=desktop-hide]),
+        .gridlock .row [class*="max-"].padded:not([class*=max-hide]) {
+            box-sizing: content-box;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 1.04166667%;
+            padding-right: 1.04166667%
+        }
+
+        .gridlock .row [class*="all-"].contained:not([class*=all-hide]),
+        .gridlock .row [class*="min-"].contained:not([class*=min-hide]),
+        .gridlock .row [class*="mobile-"].contained:not([class*=mobile-hide]),
+        .gridlock .row [class*="tablet-"].contained:not([class*=tablet-hide]),
+        .gridlock .row [class*="desktop-"].contained:not([class*=desktop-hide]),
+        .gridlock .row [class*="max-"].contained:not([class*=max-hide]) {
+            margin-left: 0;
+            margin-right: 0
+        }
+
+        .gridlock .row [class*="all-"].right:not([class*=all-hide]),
+        .gridlock .row [class*="min-"].right:not([class*=min-hide]),
+        .gridlock .row [class*="mobile-"].right:not([class*=mobile-hide]),
+        .gridlock .row [class*="tablet-"].right:not([class*=tablet-hide]),
+        .gridlock .row [class*="desktop-"].right:not([class*=desktop-hide]),
+        .gridlock .row [class*="max-"].right:not([class*=max-hide]) {
+            float: right
+        }
+
+        @media screen and (min-width: 500px) {
+            .gridlock .row {
+                width: 480px
+            }
+
+            .gridlock .editor-grid {
+                width: 480px
+            }
+        }
+
+        @media screen and (min-width: 740px) {
+            .gridlock .row {
+                width: 720px
+            }
+
+            .gridlock .editor-grid {
+                width: 720px
+            }
+        }
+
+        @media screen and (min-width: 980px) {
+            .gridlock .row {
+                width: 960px
+            }
+
+            .gridlock .editor-grid {
+                width: 960px
+            }
+        }
+
+        @media screen and (min-width: 1220px) {
+            .gridlock .row {
+                width: 1200px
+            }
+
+            .gridlock .editor-grid {
+                width: 1200px
+            }
+        }
+
+        .gridlock-fluid .row {
+            width: 98%
+        }
+
+        .gridlock-fluid .editor-grid {
+            width: 98%
+        }
+
+        @media screen and (max-width: 739px) {
+            .gridlock-mobile-fluid .row {
+                width: 98%
+            }
+
+            .gridlock-mobile-fluid .editor-grid {
+                width: 98%
+            }
+        }
+
+        .gridlock .row [class*="all-"].centered:not([class*="all-hide"]) {
+            float: none;
+            clear: both;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        .gridlock .row .all-hide {
+            display: none
+        }
+
+        @media screen and (max-width: 499px) {
+            .gridlock .row .min-1 {
+                width: 31.25%
+            }
+
+            .gridlock .row .min-2 {
+                width: 64.58333333%
+            }
+
+            .gridlock .row .min-3 {
+                width: 97.91666667%
+            }
+
+            .gridlock .row .min-push-1:not([class*="min-hide"]) {
+                margin-left: 34.375%
+            }
+
+            .gridlock .row .min-push-2:not([class*="min-hide"]) {
+                margin-left: 67.70833333%
+            }
+
+            .gridlock .row .min-push-3:not([class*="min-hide"]) {
+                margin-left: 101.04166667%
+            }
+
+            .gridlock .row .contained.min-1 {
+                width: 33.33333333%
+            }
+
+            .gridlock .row .contained.min-2 {
+                width: 66.66666667%
+            }
+
+            .gridlock .row .contained.min-3 {
+                width: 100%
+            }
+
+            .gridlock .row .contained.min-push-1:not([class*="min-hide"]) {
+                margin-left: 33.33333333%
+            }
+
+            .gridlock .row .contained.min-push-2:not([class*="min-hide"]) {
+                margin-left: 66.66666667%
+            }
+
+            .gridlock .row .contained.min-push-3:not([class*="min-hide"]) {
+                margin-left: 100%
+            }
+
+            .gridlock .row [class*="min-"].centered:not([class*="min-hide"]) {
+                float: none;
+                clear: both;
+                margin-left: auto;
+                margin-right: auto
+            }
+
+            .gridlock .row .min-hide {
+                display: none
+            }
+
+            .gridlock .editor-grid .min-1 {
+                width: 31.25%
+            }
+
+            .gridlock .editor-grid .min-2 {
+                width: 31.25%
+            }
+
+            .gridlock .editor-grid .min-3 {
+                width: 31.25%
+            }
+
+            .gridlock .editor-grid [class*="tablet-"]:not([class*="tablet-hide"]),
+            .gridlock .editor-grid [class*="desktop-"]:not([class*="desktop-hide"]) {
+                display: none
+            }
+        }
+
+        @media screen and (min-width: 500px) and (max-width: 739px) {
+            .gridlock .row .mobile-1 {
+                width: 31.25%
+            }
+
+            .gridlock .row .mobile-2 {
+                width: 64.58333333%
+            }
+
+            .gridlock .row .mobile-3 {
+                width: 97.91666667%
+            }
+
+            .gridlock .row .mobile-push-1:not([class*="mobile-hide"]) {
+                margin-left: 34.375%
+            }
+
+            .gridlock .row .mobile-push-2:not([class*="mobile-hide"]) {
+                margin-left: 67.70833333%
+            }
+
+            .gridlock .row .mobile-push-3:not([class*="mobile-hide"]) {
+                margin-left: 101.04166667%
+            }
+
+            .gridlock .row .contained.mobile-1 {
+                width: 33.33333333%
+            }
+
+            .gridlock .row .contained.mobile-2 {
+                width: 66.66666667%
+            }
+
+            .gridlock .row .contained.mobile-3 {
+                width: 100%
+            }
+
+            .gridlock .row .contained.mobile-push-1:not([class*="mobile-hide"]) {
+                margin-left: 33.33333333%
+            }
+
+            .gridlock .row .contained.mobile-push-2:not([class*="mobile-hide"]) {
+                margin-left: 66.66666667%
+            }
+
+            .gridlock .row .contained.mobile-push-3:not([class*="mobile-hide"]) {
+                margin-left: 100%
+            }
+
+            .gridlock .row [class*="mobile-"].centered:not([class*="mobile-hide"]) {
+                float: none;
+                clear: both;
+                margin-left: auto;
+                margin-right: auto
+            }
+
+            .gridlock .row .mobile-hide {
+                display: none
+            }
+
+            .gridlock .editor-grid .mobile-1 {
+                width: 31.25%
+            }
+
+            .gridlock .editor-grid .mobile-2 {
+                width: 31.25%
+            }
+
+            .gridlock .editor-grid .mobile-3 {
+                width: 31.25%
+            }
+
+            .gridlock .editor-grid [class*="tablet-"]:not([class*="tablet-hide"]),
+            .gridlock .editor-grid [class*="desktop-"]:not([class*="desktop-hide"]) {
+                display: none
+            }
+        }
+
+        @media screen and (min-width: 740px) and (max-width: 979px) {
+            .gridlock .row .tablet-1 {
+                width: 14.58333333%
+            }
+
+            .gridlock .row .tablet-2 {
+                width: 31.25%
+            }
+
+            .gridlock .row .tablet-3 {
+                width: 47.91666667%
+            }
+
+            .gridlock .row .tablet-4 {
+                width: 64.58333333%
+            }
+
+            .gridlock .row .tablet-5 {
+                width: 81.25%
+            }
+
+            .gridlock .row .tablet-6 {
+                width: 97.91666667%
+            }
+
+            .gridlock .row .tablet-push-1:not([class*="tablet-hide"]) {
+                margin-left: 17.70833333%
+            }
+
+            .gridlock .row .tablet-push-2:not([class*="tablet-hide"]) {
+                margin-left: 34.375%
+            }
+
+            .gridlock .row .tablet-push-3:not([class*="tablet-hide"]) {
+                margin-left: 51.04166667%
+            }
+
+            .gridlock .row .tablet-push-4:not([class*="tablet-hide"]) {
+                margin-left: 67.70833333%
+            }
+
+            .gridlock .row .tablet-push-5:not([class*="tablet-hide"]) {
+                margin-left: 84.375%
+            }
+
+            .gridlock .row .tablet-push-6:not([class*="tablet-hide"]) {
+                margin-left: 101.04166667%
+            }
+
+            .gridlock .row .contained.tablet-1 {
+                width: 16.66666667%
+            }
+
+            .gridlock .row .contained.tablet-2 {
+                width: 33.33333333%
+            }
+
+            .gridlock .row .contained.tablet-3 {
+                width: 50%
+            }
+
+            .gridlock .row .contained.tablet-4 {
+                width: 66.66666667%
+            }
+
+            .gridlock .row .contained.tablet-5 {
+                width: 83.33333333%
+            }
+
+            .gridlock .row .contained.tablet-6 {
+                width: 100%
+            }
+
+            .gridlock .row .contained.tablet-push-1:not([class*="tablet-hide"]) {
+                margin-left: 16.66666667%
+            }
+
+            .gridlock .row .contained.tablet-push-2:not([class*="tablet-hide"]) {
+                margin-left: 33.33333333%
+            }
+
+            .gridlock .row .contained.tablet-push-3:not([class*="tablet-hide"]) {
+                margin-left: 50%
+            }
+
+            .gridlock .row .contained.tablet-push-4:not([class*="tablet-hide"]) {
+                margin-left: 66.66666667%
+            }
+
+            .gridlock .row .contained.tablet-push-5:not([class*="tablet-hide"]) {
+                margin-left: 83.33333333%
+            }
+
+            .gridlock .row .contained.tablet-push-6:not([class*="tablet-hide"]) {
+                margin-left: 100%
+            }
+
+            .gridlock .row [class*="tablet-"].centered:not([class*="tablet-hide"]) {
+                float: none;
+                clear: both;
+                margin-left: auto;
+                margin-right: auto
+            }
+
+            .gridlock .row .tablet-hide {
+                display: none
+            }
+
+            .gridlock .editor-grid .tablet-1 {
+                width: 14.58333333%
+            }
+
+            .gridlock .editor-grid .tablet-2 {
+                width: 14.58333333%
+            }
+
+            .gridlock .editor-grid .tablet-3 {
+                width: 14.58333333%
+            }
+
+            .gridlock .editor-grid .tablet-4 {
+                width: 14.58333333%
+            }
+
+            .gridlock .editor-grid .tablet-5 {
+                width: 14.58333333%
+            }
+
+            .gridlock .editor-grid .tablet-6 {
+                width: 14.58333333%
+            }
+
+            .gridlock .editor-grid [class*="mobile-"]:not([class*="mobile-hide"]),
+            .gridlock .editor-grid [class*="desktop-"]:not([class*="desktop-hide"]) {
+                display: none
+            }
+        }
+
+        @media screen and (min-width: 980px) and (max-width: 1219px) {
+            .gridlock .row .desktop-1 {
+                width: 6.25%
+            }
+
+            .gridlock .row .desktop-2 {
+                width: 14.58333333%
+            }
+
+            .gridlock .row .desktop-3 {
+                width: 22.91666667%
+            }
+
+            .gridlock .row .desktop-4 {
+                width: 31.25%
+            }
+
+            .gridlock .row .desktop-5 {
+                width: 39.58333333%
+            }
+
+            .gridlock .row .desktop-6 {
+                width: 47.91666667%
+            }
+
+            .gridlock .row .desktop-7 {
+                width: 56.25%
+            }
+
+            .gridlock .row .desktop-8 {
+                width: 64.58333333%
+            }
+
+            .gridlock .row .desktop-9 {
+                width: 72.91666667%
+            }
+
+            .gridlock .row .desktop-10 {
+                width: 81.25%
+            }
+
+            .gridlock .row .desktop-11 {
+                width: 89.58333333%
+            }
+
+            .gridlock .row .desktop-12 {
+                width: 97.91666667%
+            }
+
+            .gridlock .row .desktop-push-1:not([class*="desktop-hide"]) {
+                margin-left: 9.375%
+            }
+
+            .gridlock .row .desktop-push-2:not([class*="desktop-hide"]) {
+                margin-left: 17.70833333%
+            }
+
+            .gridlock .row .desktop-push-3:not([class*="desktop-hide"]) {
+                margin-left: 26.04166667%
+            }
+
+            .gridlock .row .desktop-push-4:not([class*="desktop-hide"]) {
+                margin-left: 34.375%
+            }
+
+            .gridlock .row .desktop-push-5:not([class*="desktop-hide"]) {
+                margin-left: 42.70833333%
+            }
+
+            .gridlock .row .desktop-push-6:not([class*="desktop-hide"]) {
+                margin-left: 51.04166667%
+            }
+
+            .gridlock .row .desktop-push-7:not([class*="desktop-hide"]) {
+                margin-left: 59.375%
+            }
+
+            .gridlock .row .desktop-push-8:not([class*="desktop-hide"]) {
+                margin-left: 67.70833333%
+            }
+
+            .gridlock .row .desktop-push-9:not([class*="desktop-hide"]) {
+                margin-left: 76.04166667%
+            }
+
+            .gridlock .row .desktop-push-10:not([class*="desktop-hide"]) {
+                margin-left: 84.375%
+            }
+
+            .gridlock .row .desktop-push-11:not([class*="desktop-hide"]) {
+                margin-left: 92.70833333%
+            }
+
+            .gridlock .row .desktop-push-12:not([class*="desktop-hide"]) {
+                margin-left: 101.04166667%
+            }
+
+            .gridlock .row .contained.desktop-1 {
+                width: 8.33333333%
+            }
+
+            .gridlock .row .contained.desktop-2 {
+                width: 16.66666667%
+            }
+
+            .gridlock .row .contained.desktop-3 {
+                width: 25%
+            }
+
+            .gridlock .row .contained.desktop-4 {
+                width: 33.33333333%
+            }
+
+            .gridlock .row .contained.desktop-5 {
+                width: 41.66666667%
+            }
+
+            .gridlock .row .contained.desktop-6 {
+                width: 50%
+            }
+
+            .gridlock .row .contained.desktop-7 {
+                width: 58.33333333%
+            }
+
+            .gridlock .row .contained.desktop-8 {
+                width: 66.66666667%
+            }
+
+            .gridlock .row .contained.desktop-9 {
+                width: 75%
+            }
+
+            .gridlock .row .contained.desktop-10 {
+                width: 83.33333333%
+            }
+
+            .gridlock .row .contained.desktop-11 {
+                width: 91.66666667%
+            }
+
+            .gridlock .row .contained.desktop-12 {
+                width: 100%
+            }
+
+            .gridlock .row .contained.desktop-push-1:not([class*="desktop-hide"]) {
+                margin-left: 8.33333333%
+            }
+
+            .gridlock .row .contained.desktop-push-2:not([class*="desktop-hide"]) {
+                margin-left: 16.66666667%
+            }
+
+            .gridlock .row .contained.desktop-push-3:not([class*="desktop-hide"]) {
+                margin-left: 25%
+            }
+
+            .gridlock .row .contained.desktop-push-4:not([class*="desktop-hide"]) {
+                margin-left: 33.33333333%
+            }
+
+            .gridlock .row .contained.desktop-push-5:not([class*="desktop-hide"]) {
+                margin-left: 41.66666667%
+            }
+
+            .gridlock .row .contained.desktop-push-6:not([class*="desktop-hide"]) {
+                margin-left: 50%
+            }
+
+            .gridlock .row .contained.desktop-push-7:not([class*="desktop-hide"]) {
+                margin-left: 58.33333333%
+            }
+
+            .gridlock .row .contained.desktop-push-8:not([class*="desktop-hide"]) {
+                margin-left: 66.66666667%
+            }
+
+            .gridlock .row .contained.desktop-push-9:not([class*="desktop-hide"]) {
+                margin-left: 75%
+            }
+
+            .gridlock .row .contained.desktop-push-10:not([class*="desktop-hide"]) {
+                margin-left: 83.33333333%
+            }
+
+            .gridlock .row .contained.desktop-push-11:not([class*="desktop-hide"]) {
+                margin-left: 91.66666667%
+            }
+
+            .gridlock .row .contained.desktop-push-12:not([class*="desktop-hide"]) {
+                margin-left: 100%
+            }
+
+            .gridlock .row [class*="desktop-"].centered:not([class*="desktop-hide"]) {
+                float: none;
+                clear: both;
+                margin-left: auto;
+                margin-right: auto
+            }
+
+            .gridlock .row .desktop-hide {
+                display: none
+            }
+
+            .gridlock .editor-grid .desktop-1 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-2 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-3 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-4 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-5 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-6 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-7 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-8 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-9 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-10 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-11 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-12 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid [class*="mobile-"]:not([class*="mobile-hide"]),
+            .gridlock .editor-grid [class*="tablet-"]:not([class*="tablet-hide"]) {
+                display: none
+            }
+        }
+
+        @media screen and (min-width: 1220px) {
+            .gridlock .row .max-1 {
+                width: 6.25%
+            }
+
+            .gridlock .row .max-2 {
+                width: 14.58333333%
+            }
+
+            .gridlock .row .max-3 {
+                width: 22.91666667%
+            }
+
+            .gridlock .row .max-4 {
+                width: 31.25%
+            }
+
+            .gridlock .row .max-5 {
+                width: 39.58333333%
+            }
+
+            .gridlock .row .max-6 {
+                width: 47.91666667%
+            }
+
+            .gridlock .row .max-7 {
+                width: 56.25%
+            }
+
+            .gridlock .row .max-8 {
+                width: 64.58333333%
+            }
+
+            .gridlock .row .max-9 {
+                width: 72.91666667%
+            }
+
+            .gridlock .row .max-10 {
+                width: 81.25%
+            }
+
+            .gridlock .row .max-11 {
+                width: 89.58333333%
+            }
+
+            .gridlock .row .max-12 {
+                width: 97.91666667%
+            }
+
+            .gridlock .row .max-push-1:not([class*="max-hide"]) {
+                margin-left: 9.375%
+            }
+
+            .gridlock .row .max-push-2:not([class*="max-hide"]) {
+                margin-left: 17.70833333%
+            }
+
+            .gridlock .row .max-push-3:not([class*="max-hide"]) {
+                margin-left: 26.04166667%
+            }
+
+            .gridlock .row .max-push-4:not([class*="max-hide"]) {
+                margin-left: 34.375%
+            }
+
+            .gridlock .row .max-push-5:not([class*="max-hide"]) {
+                margin-left: 42.70833333%
+            }
+
+            .gridlock .row .max-push-6:not([class*="max-hide"]) {
+                margin-left: 51.04166667%
+            }
+
+            .gridlock .row .max-push-7:not([class*="max-hide"]) {
+                margin-left: 59.375%
+            }
+
+            .gridlock .row .max-push-8:not([class*="max-hide"]) {
+                margin-left: 67.70833333%
+            }
+
+            .gridlock .row .max-push-9:not([class*="max-hide"]) {
+                margin-left: 76.04166667%
+            }
+
+            .gridlock .row .max-push-10:not([class*="max-hide"]) {
+                margin-left: 84.375%
+            }
+
+            .gridlock .row .max-push-11:not([class*="max-hide"]) {
+                margin-left: 92.70833333%
+            }
+
+            .gridlock .row .max-push-12:not([class*="max-hide"]) {
+                margin-left: 101.04166667%
+            }
+
+            .gridlock .row .contained.max-1 {
+                width: 8.33333333%
+            }
+
+            .gridlock .row .contained.max-2 {
+                width: 16.66666667%
+            }
+
+            .gridlock .row .contained.max-3 {
+                width: 25%
+            }
+
+            .gridlock .row .contained.max-4 {
+                width: 33.33333333%
+            }
+
+            .gridlock .row .contained.max-5 {
+                width: 41.66666667%
+            }
+
+            .gridlock .row .contained.max-6 {
+                width: 50%
+            }
+
+            .gridlock .row .contained.max-7 {
+                width: 58.33333333%
+            }
+
+            .gridlock .row .contained.max-8 {
+                width: 66.66666667%
+            }
+
+            .gridlock .row .contained.max-9 {
+                width: 75%
+            }
+
+            .gridlock .row .contained.max-10 {
+                width: 83.33333333%
+            }
+
+            .gridlock .row .contained.max-11 {
+                width: 91.66666667%
+            }
+
+            .gridlock .row .contained.max-12 {
+                width: 100%
+            }
+
+            .gridlock .row .contained.max-push-1:not([class*="max-hide"]) {
+                margin-left: 8.33333333%
+            }
+
+            .gridlock .row .contained.max-push-2:not([class*="max-hide"]) {
+                margin-left: 16.66666667%
+            }
+
+            .gridlock .row .contained.max-push-3:not([class*="max-hide"]) {
+                margin-left: 25%
+            }
+
+            .gridlock .row .contained.max-push-4:not([class*="max-hide"]) {
+                margin-left: 33.33333333%
+            }
+
+            .gridlock .row .contained.max-push-5:not([class*="max-hide"]) {
+                margin-left: 41.66666667%
+            }
+
+            .gridlock .row .contained.max-push-6:not([class*="max-hide"]) {
+                margin-left: 50%
+            }
+
+            .gridlock .row .contained.max-push-7:not([class*="max-hide"]) {
+                margin-left: 58.33333333%
+            }
+
+            .gridlock .row .contained.max-push-8:not([class*="max-hide"]) {
+                margin-left: 66.66666667%
+            }
+
+            .gridlock .row .contained.max-push-9:not([class*="max-hide"]) {
+                margin-left: 75%
+            }
+
+            .gridlock .row .contained.max-push-10:not([class*="max-hide"]) {
+                margin-left: 83.33333333%
+            }
+
+            .gridlock .row .contained.max-push-11:not([class*="max-hide"]) {
+                margin-left: 91.66666667%
+            }
+
+            .gridlock .row .contained.max-push-12:not([class*="max-hide"]) {
+                margin-left: 100%
+            }
+
+            .gridlock .row [class*="max-"].centered:not([class*="max-hide"]) {
+                float: none;
+                clear: both;
+                margin-left: auto;
+                margin-right: auto
+            }
+
+            .gridlock .row .max-hide {
+                display: none
+            }
+
+            .gridlock .editor-grid .max-1 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-2 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-3 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-4 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-5 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-6 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-7 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-8 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-9 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-10 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-11 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-12 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid [class*="mobile-"]:not([class*="mobile-hide"]),
+            .gridlock .editor-grid [class*="tablet-"]:not([class*="tablet-hide"]) {
+                display: none
+            }
+        }
+    </style>
+    <link rel="stylesheet"
+          href="assets/styles/style.css">
+    <link href="assets/styles/default.css"
+          id="critical" onerror="$._css($(this).attr(), { timeout: 1000 })" rel="stylesheet">
+</head>
+
+<body class="gridlock cells-12 language-rus current-menu-home" data-language-id="2" data-culture="ru-Ru"
+      data-language-alias="rus" data-separator="," data-group="0" data-debug="false">
+
+<div id="panel">
+    <div class="layout-body"> <span id="widget-header">
+                <section class="layout-section background-base" id="y5raq">
+                    <div class="row layout-row">
+                        <div class="layout-cell desktop-hide tablet-hide mobile-hide min-hide max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-2 desktop-3 tablet-2 mobile-1 min-3"
+                             id="n30at">
+                            <div class="layout-inner">
+                                <div class="layout-cell-plugin layout-cell-plugin" id="hsqic">
+                                    <div class="plugin-layout-inner">
+                                        <p>
+                                            <img alt="" data-src="Templates/Template_000011/Images/pic/wall-clock.svg"
+                                                 src="assets/Images/pic/wall-clock.svg" width="32"
+                                                 height="32">
+                                            ПН-ПТ &ndash; 10:00 - 18:00
+                                            <noscript>
+                                                <img src="assets/Images/pic/wall-clock.svg" alt=""
+                                                     title="">
+                                            </noscript>
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="layout-cell tablet-hide mobile-hide min-hide max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-2 desktop-3 tablet-2 mobile-3 min-3 min-push-2"
+                             id="xjuo2">
+                            <div class="layout-inner">
+                                <div class="layout-cell-plugin layout-cell-plugin" id="lubjh">
+                                    <div class="plugin-layout-inner">
+                                        <p><a style="position: static" href="mailto:sezam95@ukr.net"><img alt=""
+                                                                                                          data-src="Templates/Template_000011/Images/pic/email.svg"
+                                                                                                          src="assets/Images/pic/email.svg"
+                                                                                                          width="32"
+                                                                                                          height="32">sezam95@ukr.net<noscript><img
+                                                src="assets/Images/pic/email.svg" alt=""
+                                                title=""></noscript></a></p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="layout-cell mobile-hide min-hide max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-2 desktop-3 tablet-2 mobile-3 min-3"
+                             id="zht06">
+                            <div class="layout-inner">
+                                <div class="layout-cell-plugin layout-cell-plugin" id="zojod">
+                                    <div class="plugin-layout-inner">
+                                        <div class="plugin-default social-networks" style="text-align: center;">
+                                            <div class="plugin-default-social-networks with-style"
+                                                 style="margin-left: 3px; margin-right: 3px;">
+                                                <div class="social-networks"> <a href="https://instagram.com/"
+                                                                                 target="Blank" rel="nofollow"
+                                                                                 aria-label="Instagram">
+                                                        <span style="background: none; width: 26px; height: 26px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                            <img alt="Instagram" style="width: 100%; height: 100%;"
+                                                                 data-src="Templates/Template_000011/Images/pic/instagram.svg"
+                                                                 src="assets/Images/pic/instagram.svg"
+                                                                 width="32" height="32" class="async loader-async">
+                                                            <noscript><img
+                                                                    src="assets/Images/pic/instagram.svg"
+                                                                    alt="Instagram" title="Instagram"></noscript></span>
+                                                    </a> </div>
+                                            </div>
+                                            <div class="plugin-default-social-networks with-style"
+                                                 style="margin-left: 3px; margin-right: 3px;">
+                                                <div class="social-networks"> <a href="https://facebook.com/"
+                                                                                 target="Blank" rel="nofollow"
+                                                                                 aria-label="Facebook">
+                                                        <span style="background-color: transparent; width: 26px; height: 26px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                            <img alt="Facebook" style="width: 100%; height: 100%;"
+                                                                 data-src="Templates/Template_000011/Images/pic/facebook.svg"
+                                                                 src="assets/Images/pic/facebook.svg"
+                                                                 width="32" height="32">
+                                                            <noscript><img
+                                                                    src="assets/Images/pic/facebook.svg"
+                                                                    alt="Facebook" title="Facebook"></noscript></span>
+                                                    </a> </div>
+                                            </div>
+                                            <div class="plugin-default-social-networks with-style"
+                                                 style="margin-left: 3px; margin-right: 3px;">
+                                                <div class="social-networks"> <a href="https://t.me/+380677527969"
+                                                                                 target="Blank" rel="nofollow"
+                                                                                 aria-label="Telegram">
+                                                        <span style="background-color: transparent; width: 26px; height: 26px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                            <img alt="YouTube" style="width: 100%; height: 100%;"
+                                                                 data-src="Templates/Template_000011/Images/pic/youtube.svg"
+                                                                 src="assets/Images/pic/telegram.svg"
+                                                                 width="32" height="32">
+                                                            <noscript><img
+                                                                    src="assets/Images/pic/telegram.svg"
+                                                                    alt="YouTube" title="YouTube"></noscript></span>
+                                                    </a> </div>
+                                            </div>
+                                            <div class="plugin-default-social-networks with-style"
+                                                 style="margin-left: 3px; margin-right: 3px;">
+                                                <div class="social-networks"> <a
+                                                        href="https://api.whatsapp.com/send?phone=380677527969"
+                                                        target="Blank" rel="nofollow"
+                                                        aria-label="WhatsApp">
+                                                        <span style="background-color: transparent; width: 26px; height: 26px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                            <img alt="WhatsApp" style="width: 100%; height: 100%;"
+                                                                 data-src="Templates/Template_000011/Images/pic/whatsapp.svg"
+                                                                 src="assets/Images/pic/whatsapp.svg"
+                                                                 width="32" height="32">
+                                                            <noscript><img
+                                                                    src="assets/Images/pic/whatsapp.svg"
+                                                                    alt="WhatsApp" title="WhatsApp"></noscript></span>
+                                                    </a> </div>
+                                            </div>
+                                            <div class="plugin-default-social-networks with-style"
+                                                 style="margin-left: 3px; margin-right: 3px;">
+                                                <div class="social-networks">
+                                                    <a href="viber://chat?number=+380677527969"
+                                                       target="Blank" rel="nofollow"
+                                                       aria-label="Viber">
+                                                        <span style="background-color: transparent; width: 26px; height: 26px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                            <img alt="YouTube" style="width: 100%; height: 100%;"
+                                                                 data-src="Templates/Template_000011/Images/pic/viber.svg"
+                                                                 src="assets/Images/pic/viber.svg"
+                                                                 width="32" height="32">
+                                                            <noscript><img
+                                                                    src="assets/Images/pic/viber.svg"
+                                                                    alt="viber" title="Viber"></noscript></span>
+                                                    </a> </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-2 desktop-2 tablet-2 mobile-2 min-2"
+                             id="bq188">
+                            <div class="layout-inner">
+                                <div class="layout-cell-plugin layout-cell-plugin" id="pxagg">
+                                    <div class="plugin-layout-inner">
+                                        <div id="authentication-pxagg" class="plugin-authentication">
+                                            <div class="sign-up-block authentication-block line "
+                                                 style="justify-content: flex-end; display: flex; align-items: center;"> <a
+                                                    href="#"
+                                                    style="color: #fff; font-size: 12px; display: flex; width: fit-content; align-items: center;">
+                                                    <img alt="Избранное"
+                                                         style="width: 18px; height: 18px; margin-right: 6px;"
+                                                         data-src="Templates/Template_000011/Images/pic/user.svg"
+                                                         src="assets/Images/pic/w-bar-call.svg"
+                                                         width="32"
+                                                         height="32">
+                                                    <div style="display: flex; flex-direction: column">
+                                                        <a href="tel:380677527969">+38(067)-752-79-69</a>
+                                                        <a href="tel:380953229283">+38(095)-322-92-83</a>
+                                                    </div>
+                                                    <noscript><img src="assets/Images/pic/user.svg"
+                                                                   alt="Избранное"
+                                                                   title="Избранное"></noscript></a> </div>
+
+                                            <div class="hello-block authentication-block authentication-block line"
+                                                 style="justify-content: flex-end; display: flex; align-items: center; display: none;">
+
+                                                    style="color: #fff; font-size: 13px; display: flex; width: fit-content; align-items: center;">
+                                                <a href="index.html">
+                                                    <img alt="Избранное"
+                                                         style="width: 18px; height: 18px; margin-right: 6px;"
+                                                         data-src="Templates/Template_000011/Images/pic/sezam-logo.jpg"
+                                                         src="assets/Images/pic/sezam-logo.jpg"
+                                                         width="32" height="32" class="async loader-async">
+                                                </a>
+
+                                                    Здравствуйте, <span>***</span>
+                                                    <noscript><img src="assets/Images/pic/user.svg"
+                                                                   alt="Избранное"
+                                                                   title="Избранное"></noscript> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="layout-section StickyHeader" id="rzn1h">
+                    <div class="row layout-row " id="fwidth">
+                        <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-2 desktop-2 tablet-4 mobile-1 min-1"
+                             id="rpoub">
+                            <div class="layout-inner">
+                                <div class="layout-cell-plugin layout-cell-plugin" id="q1aqp">
+                                    <div class="plugin-layout-inner">
+                                        <div class="logo-plugin logo-default" id="logo-q1aqp">
+                                            <div class="logo-container" style="margin: auto auto auto 0;"> <span
+                                                    class="logo-image-main">
+                                                <a href="index.html">
+                                                    <img
+                                                            alt="#" title="Інтернет-магазин"
+                                                            data-src="Templates/Template_000011/Images/pic/sezam-logo.jpg"
+                                                            src="assets/Images/pic/sezam-logo.jpg"
+                                                            width="122" height="42" class="async">
+                                                    </a>
+                                                    <noscript><img
+                                                            src="assets/Images/pic/logo-re.png"
+                                                            alt="Інтернет-магазин" title="Інтернет-магазин"></noscript></span> </div>
+                                        </div>
+                                        <script>
+                                            function SetWidth_q1aqp(width) {
+                                                if (width) $("#logo-q1aqp .logo-container").css("width", width);
+                                                else $("#logo-q1aqp .logo-container").css("width", "100%");
+                                            }
+
+                                            function GetSettings_q1aqp() {
+                                                if (window.innerWidth >= 1220) SetWidth_q1aqp("130px")
+                                                else if (window.innerWidth >= 980 && window.innerWidth < 1220) SetWidth_q1aqp("130px")
+                                                else if (window.innerWidth >= 740 && window.innerWidth < 979) SetWidth_q1aqp("130px")
+                                                else if (window.innerWidth >= 500 && window.innerWidth < 739) SetWidth_q1aqp("120px")
+                                                else SetWidth_q1aqp("90px")
+                                            }
+
+                                            $(document).ready(function () {
+                                                GetSettings_q1aqp();
+                                            });
+
+                                            $(window).resize(() => {
+                                                GetSettings_q1aqp();
+                                            });
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="menu">
+            <ul>
+              <li><a href="#"><img src="assets/Images/pic/metal-door.svg" alt="Металеві двері">Металеві двері</a></li>
+              <li><a href="#"><img src="assets/Images/pic/metal-gate.svg"
+                                   alt="Металеві ворота">Металеві ворота з автоматикою і без</a></li>
+              <li><a href="#"><img src="assets/Images/pic/window-gate.svg" alt="Грати на вікна">Грати на вікна</a></li>
+              <li><a href="#"><img src="assets/Images/pic/metal-shu.svg"
+                                   alt="Захисні металеві жалюзі">Захисні металеві жалюзі</a></li>
+                <li><a href="#"><img src="assets/Images/menuIcon/canopy.svg" alt="Козирки">Козирки (металеві ферми для даху)</a></li>
+                <li><a href="#"><img src="assets/Images/menuIcon/metal-fence.svg"
+                                     alt="Металеві огорожі">Металеві огорожі</a></li>
+                <li><a href="#"><img src="assets/Images/menuIcon/forded-product.svg"
+                                     alt="Ковані вироби">Ковані вироби</a></li>
+                <li><a href="#"><img src="assets/Images/menuIcon/mdf-facades.svg"
+                                     alt="МДФ фасади для вхідних дверей">МДФ фасади для вхідних дверей</a></li>
+                <li><a href="#"><img src="assets/Images/menuIcon/interior-doors.svg"
+                                     alt="Міжкімнатні двері">Міжкімнатні двері</a></li>
+                <li><a href="#"><img src="assets/Images/menuIcon/interior-doors.svg"
+                                     alt="Металопластикові вікна">Металопластикові вікна</a></li>
+        </ul>
+
+  </div>
+                        <div class="layout-cell tablet-hide mobile-hide min-hide max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-8 desktop-8 tablet-2 mobile-1 min-3"
+                             id="cw8yf">
+                            <div class="layout-inner">
+                                <div class="layout-cell-plugin layout-cell-plugin" id="yh2gh">
+                                    <div class="plugin-layout-inner">
+                                        <div class="plugin-menu">
+                                            <nav class="menu-horizontal widgets-menu tablet-hide mobile-hide min-hide">
+                                                <ul style="text-align: center;">
+                                                    <li class="menu-item-home"
+                                                        class="current has-no-submenu has-no-widget">
+                                                            <a href="index.html"
+                                                               target="_self"
+                                                               data-img-src="Templates/Template_000011/Images/default-image.jpg"
+                                                               style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                Главная
+                                                            </a>
+                                                    </li>
+                                                    <li class="common has-submenu has-no-widget"> <a
+                                                            href="#" target="_self"
+                                                            data-img-src="Templates/Template_000011/Images/default-image.jpg"
+                                                            style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                            Покупателям
+                                                        </a>
+                                                        <ul class="submenu">
+                                                            <li class="menu-item-pro-nas"
+                                                                class="common has-no-submenu has-no-widget submenu"> <a
+                                                                    href="assets/pages/metalevi-dveri.html"
+                                                                    target="_self"
+                                                                    data-img-src="Templates/Template_000011/Images/default-image.jpg"
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    Металеві двері
+                                                                </a> </li>
+                                                            <li id="menu-item-dostavka-i-oplata"
+                                                                id="menu-item-dostavka-i-oplata"
+                                                                class="common has-no-submenu has-no-widget submenu"> <a
+                                                                    href="assets/pages/vorota.html"
+                                                                    target="_self"
+                                                                    data-img-src="Templates/Template_000011/Images/default-image.jpg"
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    Металеві ворота з автоматикою і без
+                                                                </a> </li>
+                                                            <li class="menu-item-pro-nas"
+                                                                class="common has-no-submenu has-no-widget submenu"> <a
+                                                                    href="assets/pages/gratu-okna.html"
+                                                                    target="_self"
+                                                                    data-img-src="Templates/Template_000011/Images/default-image.jpg"
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                Грати на вікна
+                                                                </a> </li>
+                                                            <li class="menu-item-pro-nas"
+                                                                class="common has-no-submenu has-no-widget submenu"> <a
+                                                                    href="assets/pages/blins.html"
+                                                                    target="_self"
+                                                                    data-img-src="Templates/Template_000011/Images/default-image.jpg"
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    Захисні металеві жалюзі
+                                                                </a> </li>
+                                                            <li class="menu-item-pro-nas"
+                                                                class="common has-no-submenu has-no-widget submenu"> <a
+                                                                    href="assets/pages/ferma.html"
+                                                                    target="_self"
+                                                                    data-img-src="Templates/Template_000011/Images/default-image.jpg"
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    Металеві ферми для даху
+                                                                </a> </li>
+
+                                                            <li class="menu-item-pro-nas"
+                                                                class="common has-no-submenu has-no-widget submenu"> <a
+                                                                    href="assets/pages/ogorozhi.html"
+                                                                    target="_self"
+                                                                    data-img-src="Templates/Template_000011/Images/default-image.jpg"
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    Металеві огорожі
+                                                                </a> </li>
+                                                            <li class="menu-item-pro-nas"
+                                                                class="common has-no-submenu has-no-widget submenu"> <a
+                                                                    href="assets/pages/kovani.html"
+                                                                    target="_self"
+                                                                    data-img-src="Templates/Template_000011/Images/default-image.jpg"
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    Ковані вироби
+                                                                </a> </li>
+                                                            <li class="menu-item-pro-nas"
+                                                                class="common has-no-submenu has-no-widget submenu"> <a
+                                                                    href="assets/pages/mdf.html"
+                                                                    target="_self"
+                                                                    data-img-src="Templates/Template_000011/Images/default-image.jpg"
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    МДФ фасади для дверей
+                                                                </a> </li>
+                                                            <li class="menu-item-pro-nas"
+                                                                class="common has-no-submenu has-no-widget submenu">
+                                                                <a
+                                                                        href="assets/pages/dveri-mizhkomnatni.html"
+                                                                        target="_self"
+                                                                        data-img-src="Templates/Template_000011/Images/default-image.jpg"
+                                                                        style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    Міжкімнатні двері
+                                                                </a>
+                                                            </li>
+                                                            <li id="menu-item-pro-nas"
+                                                                class="common has-no-submenu has-no-widget submenu"> <a
+                                                                    href="assets/pages/metal-okna.html" target="_self"
+                                                                    data-img-src="Templates/Template_000011/Images/default-image.jpg"
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    Металопластикові вікна
+                                                                </a>
+                                                            </li>
+
+                                                        </ul>
+                                                    </li>
+
+                                                    <li class="common has-no-widget">
+                                                        <a href="../sezam-developer/assets/pages/company.html"
+                                                           target="_self"
+                                                           data-img-src="Templates/Template_000011/Images/default-image.jpg"
+                                                           style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                            Про компанію
+                                                        </a>
+                                                    </li>
+                                                    <li class="common has-no-submenu has-no-widget">
+                                                        <a
+                                                                href="../sezam-developer/assets/pages/contacts.html" target="_self"
+                                                                data-img-src="Templates/Template_000011/Images/default-image.jpg"
+                                                                style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                            Контакты
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </span>
+        <article id="home-item" class="layout-container">
+            <section class="layout-section full-width slider" id="yhzyk">
+                <div class="row layout-row">
+                    <div class="layout-cell contained max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-12 desktop-12 tablet-6 mobile-3 min-3"
+                         id="bczoj">
+                        <div class="layout-inner">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="kd79x">
+                                <div class="plugin-layout-inner">
+                                    <div id="light-slider-kd79x" class="light-slider light-slider-plugin">
+                                        <div class="light-slider-wrapper">
+                                            <div class="light-slide-wrapper">
+                                                <div class="inner compensate-for-scrollbar">
+                                                    <article style="padding: 50px 0; background: #282c34;"> <span
+                                                            class="container-async"
+                                                            style="padding-top: 62.100%; position: relative; ">
+<!--                                                                <picture class="async" data-original-src="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" data-alt="Интернет-магазин авто-товаров" data-title="Интернет-магазин авто-товаров">-->
+                                                        <!--                                                                    <source media="(max-width: 500px)" data-srcset="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" type="image/webp" data-alt="Интернет-магазин авто-товаров" data-title="Интернет-магазин авто-товаров">-->
+                                                        <!--                                                                    <source media="(max-width: 980px)" data-srcset="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" type="image/webp" data-alt="Интернет-магазин авто-товаров" data-title="Интернет-магазин авто-товаров">-->
+                                                        <!--                                                                    <source media="(max-width: 1220px)" data-srcset="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" type="image/webp" data-alt="Интернет-магазин авто-товаров" data-title="Интернет-магазин авто-товаров">-->
+                                                        <!--                                                                    <source media="(min-width: 1221px)" data-srcset="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" type="image/webp" data-alt="Интернет-магазин авто-товаров" data-title="Интернет-магазин авто-товаров">-->
+                                                        <!--                                                                    <img class="" src="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" data-src="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" alt="Интернет-магазин авто-товаров" title="Интернет-магазин авто-товаров">-->
+                                                        <!--                                                                </picture>-->
+                                                        <!--                                                        <img src="https://images.wallpaperscraft.ru/image/single/uzory_stena_temnyj_29888_1920x1080.jpg"-->
+                                                        <!--                                                             alt=""-->
+                                                        <!--                                                             style="position: absolute; right: 0; top: 0; bottom: 0; width: 800px; height: calc(100% + 50px)">-->
+                                                                <noscript>
+                                                                    <picture class="sync"><img class="sync"
+                                                                                               src="Media/demox-000-10/_assets/slider/red-sport-car-front-side-view-black-wheel-with-metallic-silver-color11.jpg"
+                                                                                               alt="Интернет-магазин авто-товаров"
+                                                                                               title="Интернет-магазин авто-товаров"></picture>
+                                                                </noscript>
+                                                            </span>
+                                                        <span class="slider-label">
+                                                                <span class="slider-name animated-text">
+                                                                    Виробнича фірма "Сезам" пропонує різноманітні металеві вироби, такі як вхідні двері, у т.ч з захистом від промерзання та на прихованих навісах, ворота з автоматикою або без, грати на вікна, захисні металеві жалюзі, ковані вироби, огорожі, металеві ферми для дахів та інші металеві конструкції. Наш асортимент також включає МДФ фасади для вхідних дверей, міжкімнатні двері та металопластикові вікна.
+                                                                </span> <span class="slider-description">
+                                                                    <p style="text-transform: uppercase; font-style: italic"
+                                                                       class="hidden-500">Наші якість і безпека - Ваші комфорт і душевний спокій!</p>
+
+                                                                </span> </span>
+                                                    </article>
+                                                    <article style="padding: 0 0px;"> <span
+                                                            class="container-async loader-async"
+                                                            style="padding-top: 66.6500%">
+                                                                <picture class="async"
+                                                                         data-original-src="Media/demox-000-10/slider/closeup-shiny-headlight-black-luxury-car-isolated-white-background11.jpg"
+                                                                         data-alt="Автомобильные товары европейского качества"
+                                                                         data-title="Автомобильные товары европейского качества">
+                                                                    <source media="(max-width: 500px)"
+                                                                            data-srcset="WebCache/Media/demox-000-10/_assets/slider/closeup-shiny-headlight-black-luxury-car-isolated-white-background11-ratio-width-500-jpg.webp"
+                                                                            type="image/webp"
+                                                                            data-alt="Автомобильные товары европейского качества"
+                                                                            data-title="Автомобильные товары европейского качества">
+                                                                    <source media="(max-width: 980px)"
+                                                                            data-srcset="WebCache/Media/demox-000-10/_assets/slider/closeup-shiny-headlight-black-luxury-car-isolated-white-background11-ratio-width-1200-jpg.webp"
+                                                                            type="image/webp"
+                                                                            data-alt="Автомобильные товары европейского качества"
+                                                                            data-title="Автомобильные товары европейского качества">
+                                                                    <source media="(max-width: 1220px)"
+                                                                            data-srcset="WebCache/Media/demox-000-10/_assets/slider/closeup-shiny-headlight-black-luxury-car-isolated-white-background11-ratio-width-1225-jpg.webp"
+                                                                            type="image/webp"
+                                                                            data-alt="Автомобильные товары европейского качества"
+                                                                            data-title="Автомобильные товары европейского качества">
+                                                                    <source media="(min-width: 1221px)"
+                                                                            data-srcset="WebCache/Media/demox-000-10/_assets/slider/closeup-shiny-headlight-black-luxury-car-isolated-white-background11-ratio-width-0-jpg.webp"
+                                                                            type="image/webp"
+                                                                            data-alt="Автомобильные товары европейского качества"
+                                                                            data-title="Автомобильные товары европейского качества">
+                                                                    <img class="async"
+                                                                         src="Template/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg"
+                                                                         data-src="Template/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg"
+                                                                         alt="Автомобильные товары европейского качества"
+                                                                         title="Автомобильные товары европейского качества">
+                                                                </picture>
+                                                                <noscript>
+                                                                    <picture class="sync"><img class="sync"
+                                                                                               src="Template/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg"
+                                                                                               alt="Автомобильные товары европейского качества"
+                                                                                               title="Автомобильные товары европейского качества"></picture>
+                                                                </noscript>
+                                                            </span>
+                                                        <script type="application/ld+json">
+                                                            {
+                                                                "@context": "https://schema.org/",
+                                                                "@type": "ImageObject",
+                                                                "contentUrl": "Template/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg",
+                                                                "datePublished": "2021-08-16",
+                                                                "name": "Автомобильные товары европейского качества",
+                                                                "width": 2000,
+                                                                "height": 1333
+                                                            }
+                                                        </script>
+                                                        <span class="slider-label">
+                                                                <span class="slider-name">
+                                                                    Автомобильные товары европейского качества
+                                                                </span> <span class="slider-description">
+                                                                    <p>Магазин гарантирует своевременную доставку аксессуаров для авто по всей Украине!</p>
+                                                                    <p class="button"><a href="rus/shop/">Каталог</a><a
+                                                                            href="contacts.html">Контакты</a></p>
+                                                                </span> </span>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--                                        <div class="light-slider-dot-control alignment-center position-over shape-circle"> <span class='kd79x-dot-1 active'></span> <span class='kd79x-dot-2 '></span> </div>-->
+                                    </div>
+                                    <style>
+                                        @media only screen and (max-width: 499px) {
+
+                                            #light-slider-kd79x article {
+                                                width: 25%;
+                                            }
+
+
+                                            #light-slider-kd79x .inner {
+                                                width: 400%;
+                                                line-height: 0;
+                                                margin-left: 0;
+                                            }
+
+
+                                        }
+
+                                        @media only screen and (max-width: 739px) and (min-width: 500px) {
+
+                                            #light-slider-kd79x article {
+                                                width: 25%;
+                                            }
+
+
+                                            #light-slider-kd79x .inner {
+                                                width: 400%;
+                                                line-height: 0;
+                                                margin-left: 0;
+                                            }
+
+
+                                        }
+
+                                        @media only screen and (max-width: 979px) and (min-width: 740px) {
+
+                                            #light-slider-kd79x article {
+                                                width: 25%;
+                                            }
+
+
+                                            #light-slider-kd79x .inner {
+                                                width: 400%;
+                                                line-height: 0;
+                                                margin-left: 0;
+                                            }
+
+
+                                        }
+
+                                        @media only screen and (max-width: 1219px) and (min-width: 980px) {
+
+                                            #light-slider-kd79x article {
+                                                width: 25%;
+                                            }
+
+
+                                            #light-slider-kd79x .inner {
+                                                width: 400%;
+                                                line-height: 0;
+                                                margin-left: 0;
+                                            }
+
+
+                                        }
+
+                                        @media only screen and (min-width: 1220px) {
+
+
+                                            #light-slider-kd79x article {
+                                                width: 25%;
+                                            }
+
+
+                                            #light-slider-kd79x .inner {
+                                                width: 400%;
+                                                line-height: 0;
+                                                margin-left: 0;
+                                            }
+
+
+                                        }
+
+
+                                        #light-slider-kd79x .light-slider-dot-control span {
+                                            border-color: #DA2D2E;
+                                        }
+
+                                        #light-slider-kd79x .light-slider-dot-control span:hover,
+                                        #light-slider-kd79x .light-slider-dot-control span.active {
+                                            background: #DA2D2E;
+                                            border-color: #DA2D2E;
+                                        }
+                                    </style>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="layout-section" id="qsnnw">
+                <div class="row layout-row">
+                    <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-12 desktop-12 tablet-6 mobile-3 min-3"
+                         id="c6c0u">
+                        <div class="layout-inner">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="ee2ak">
+                                <div class="plugin-layout-inner">
+                                    <div class="category-horizontal-with-images">
+                                        <div class="row category-title">
+                                            <p class="mobile-thrive">Наші якість і безпека - Ваші комфорт і душевний
+                                                спокій!</p>
+                                            <div class="max-12 desktop-12 tablet-6 mobile-3 min-3">
+                                                <div class="h2" id="555">Категорії виробів</div>
+                                            </div>
+                                        </div>
+                                        <div class="row categories-row auto-height">
+
+                                            <div class="category-block max-4 desktop-4 tablet-3 mobile-1 min-3"
+                                                 data-aos="fade-up-left">
+                                                <div class="category-image"><a
+                                                                               target="_self"
+                                                                               aria-label="Автоаксессуары">
+
+
+
+                                                            <span class="container-async" style="padding-top: 100%">
+                                                                <picture class="async"
+                                                                         data-original-src="Templates/Template_000011/Images/black-interior-details-modern-luxury-car-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp"
+                                                                         data-alt="" data-title="">
+                                                                    <source data-srcset="WebCache/Media/demox-000-10/_assets/black-interior-details-modern-luxury-car-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp"
+                                                                            type="image/webp" data-alt="" data-title="">
+                                                                    <img class=""
+                                                                         src="assets/Images/pic/door.jpg"
+                                                                         style="height: 500px"
+                                                                         data-src="WebCache/Media/demox-000-10/_assets/black-interior-details-modern-luxury-car-ratio-10x10-proportions-jpg.jpg"
+                                                                         alt="" title="">
+                                                                </picture>
+                                                                <noscript>
+                                                                    <picture class="sync"><img class="sync"
+                                                                                               src="assets/Images/black-interior-details-modern-luxury-car-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp"
+                                                                                               alt=""
+                                                                                               title=""></picture>
+                                                                </noscript>
+                                                            </span>
+                                                    <script type="application/ld+json">
+                                                        {
+                                                            "@context": "https://schema.org/",
+                                                            "@type": "ImageObject",
+                                                            "contentUrl": "WebCache/Media/demox-000-10/_assets/black-interior-details-modern-luxury-car-ratio-10x10-proportions-jpg.jpg",
+                                                            "datePublished": "2023-03-15",
+                                                            "name": "",
+                                                            "width": 813,
+                                                            "height": 813
+                                                        }
+                                                    </script>
+                                                </a></div>
+                                                <div class="category-name door-link"
+
+                                                     style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;">
+                                                    <span
+                                                       style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
+                                                        Металеві двері
+                                                    </span></div>
+                                            </div>
+                                            <div class="category-block category-olivi-motorni max-4 desktop-4 tablet-3 mobile-1 min-3"
+                                                 data-aos="zoom-out-up">
+                                                <div class="category-image">
+                                                    <a href="rus/shop/olivi-motorni/" target="_self"
+                                                       aria-label="Масло моторное">
+                                                            <span class="container-async"
+                                                                  style="padding-top: 100%; height: 100%">
+                                                                <picture class=""
+                                                                         data-original-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-2-ratio-10x10-proportions-jpg.jpg"
+                                                                         data-alt="" data-title="">
+                                                                    <source data-srcset="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-2-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp"
+                                                                            type="image/webp" data-alt="" data-title="">
+                                                                    <img class=""
+                                                                         src="assets/Images/pic/vorota2.jpeg"
+                                                                         style="height: 500px"
+                                                                         data-src="Templates/Template_000011/Images/black-interior-details-modern-luxury-car-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp"
+                                                                         alt="" title="">
+                                                                </picture>
+                                                                <noscript>
+                                                                    <picture class="sync"><img class="sync"
+                                                                                               src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-2-ratio-10x10-proportions-jpg.jpg"
+                                                                                               alt=""
+                                                                                               title=""></picture>
+                                                                </noscript>
+                                                            </span>
+                                                        <script type="application/ld+json">
+                                                            {
+                                                                "@context": "https://schema.org/",
+                                                                "@type": "ImageObject",
+                                                                "contentUrl": "WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-2-ratio-10x10-proportions-jpg.jpg",
+                                                                "datePublished": "2023-03-15",
+                                                                "name": "",
+                                                                "width": 757,
+                                                                "height": 757
+                                                            }
+                                                        </script>
+                                                    </a></div>
+                                                <div class="category-name gate-link"
+                                                     style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;">
+                                                    <a href="../sezam-developer/assets/pages/vorota.html" target="_self"
+                                                       style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
+                                                        Металеві ворота з автоматикою і без
+                                                    </a></div>
+                                            </div>
+                                            <div class="category-block category-avtoelektronika max-4 desktop-4 tablet-3 mobile-1 min-3"
+                                                 data-aos="fade-up-right">
+                                                <div class="category-image"><a href="rus/shop/avtoelektronika/"
+                                                                               target="_self"
+                                                                               aria-label="Автоэлектроника">
+
+
+
+                                                            <span class="container-async" style="padding-top: 100%">
+                                                                <picture class="async"
+                                                                         data-original-src="WebCache/Media/demox-000-10/_assets/videoreestrator---nezaminniy-pravdiviy-svidok-ratio-10x10-proportions-jpg.jpg"
+                                                                         data-alt="" data-title="">
+                                                                    <source data-srcset="WebCache/Media/demox-000-10/_assets/videoreestrator---nezaminniy-pravdiviy-svidok-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp"
+                                                                            type="image/webp" data-alt="" data-title="">
+                                                                    <img class="async"
+                                                                         src="assets/Images/pic/reshetki.jpeg"
+                                                                         style="height: 100%"
+                                                                         data-src="WebCache/Media/demox-000-10/_assets/videoreestrator---nezaminniy-pravdiviy-svidok-ratio-10x10-proportions-jpg.jpg"
+                                                                         alt="" title="">
+                                                                </picture>
+                                                                <noscript>
+                                                                    <picture class="sync"><img class="sync"
+                                                                                               src="WebCache/Media/demox-000-10/_assets/videoreestrator---nezaminniy-pravdiviy-svidok-ratio-10x10-proportions-jpg.jpg"
+                                                                                               alt=""
+                                                                                               title=""></picture>
+                                                                </noscript>
+                                                            </span>
+                                                    <script type="application/ld+json">
+                                                        {
+                                                            "@context": "https://schema.org/",
+                                                            "@type": "ImageObject",
+                                                            "contentUrl": "WebCache/Media/demox-000-10/_assets/videoreestrator---nezaminniy-pravdiviy-svidok-ratio-10x10-proportions-jpg.jpg",
+                                                            "datePublished": "2023-03-15",
+                                                            "name": "",
+                                                            "width": 814,
+                                                            "height": 814
+                                                        }
+                                                    </script>
+                                                </a></div>
+                                                <div class="category-name bars-link"
+                                                     style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;">
+                                                    <a href="./assets/pages/gratu-okna.html" target="_self"
+                                                       style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
+                                                        Грати на вікна
+                                                    </a></div>
+                                            </div>
+                                            <div class="category-block category-doglyad-za-avto max-4 desktop-4 tablet-3 mobile-1 min-3"
+                                                 data-aos="fade-up-left">
+                                                <div class="category-image"><a href="rus/shop/doglyad-za-avto/"
+                                                                               target="_self" aria-label="Уход за авто">
+
+
+
+                                                            <span class="container-async " style="padding-top: 100%">
+                                                                <picture class="async"
+                                                                         data-original-src="WebCache/Media/demox-000-10/_assets/car-wash-detailing-station-ratio-10x10-proportions-jpg.jpg"
+                                                                         data-alt="" data-title="">
+                                                                    <source data-srcset="WebCache/Media/demox-000-10/_assets/car-wash-detailing-station-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp"
+                                                                            type="image/webp" data-alt="" data-title="">
+                                                                    <img class=""
+                                                                         src="assets/Images/pic/zhalyzi.jpeg"
+                                                                         style="height: 100%"
+                                                                         data-src="WebCache/Media/demox-000-10/_assets/car-wash-detailing-station-ratio-10x10-proportions-jpg.jpg"
+                                                                         alt="" title="">
+                                                                </picture>
+                                                                <noscript>
+                                                                    <picture class="sync"><img class="sync"
+                                                                                               src="WebCache/Media/demox-000-10/_assets/car-wash-detailing-station-ratio-10x10-proportions-jpg.jpg"
+                                                                                               alt=""
+                                                                                               title=""></picture>
+                                                                </noscript>
+                                                            </span>
+                                                    <script type="application/ld+json">
+                                                        {
+                                                            "@context": "https://schema.org/",
+                                                            "@type": "ImageObject",
+                                                            "contentUrl": "WebCache/Media/demox-000-10/_assets/car-wash-detailing-station-ratio-10x10-proportions-jpg.jpg",
+                                                            "datePublished": "2023-03-15",
+                                                            "name": "",
+                                                            "width": 813,
+                                                            "height": 813
+                                                        }
+                                                    </script>
+                                                </a></div>
+                                                <div class="category-name shutters-link"
+                                                     style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;">
+                                                    <a href="./assets/pages/blins.html" target="_self"
+                                                       style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
+                                                        Захисні металеві жалюзі
+                                                    </a></div>
+                                            </div>
+                                            <div class="category-block category-avtozapchastini max-4 desktop-4 tablet-3 mobile-1 min-3"
+                                                 data-aos="zoom-out-up">
+                                                <div class="category-image"><a href="rus/shop/avtozapchastini/"
+                                                                               target="_self" aria-label="Автозапчасти">
+
+
+
+                                                            <span class="container-async" style="padding-top: 100%">
+                                                                <picture class="async"
+                                                                         data-original-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg"
+                                                                         data-alt="" data-title="">
+                                                                    <source data-srcset="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp"
+                                                                            type="image/webp" data-alt="" data-title="">
+                                                                    <img class="async"
+                                                                         src="assets/Images/pic/kozirki.png"
+                                                                         style="height: 100%"
+                                                                         data-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg"
+                                                                         alt="" title="">
+                                                                </picture>
+                                                                <noscript>
+                                                                    <picture class="sync"><img class="sync"
+                                                                                               src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg"
+                                                                                               alt=""
+                                                                                               title=""></picture>
+                                                                </noscript>
+                                                            </span>
+                                                    <script type="application/ld+json">
+                                                        {
+                                                            "@context": "https://schema.org/",
+                                                            "@type": "ImageObject",
+                                                            "contentUrl": "WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg",
+                                                            "datePublished": "2023-03-15",
+                                                            "name": "",
+                                                            "width": 813,
+                                                            "height": 813
+                                                        }
+                                                    </script>
+                                                </a></div>
+                                                <div class="category-name visors-link"
+                                                     style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;">
+                                                    <a href="./assets/pages/ferma.html" target="_self"
+                                                       style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
+                                                        Козирки (металеві ферми для даху)
+                                                    </a></div>
+                                            </div>
+
+
+                                            <div class="category-block category-avtozapchastini max-4 desktop-4 tablet-3 mobile-1 min-3"
+                                                 data-aos="fade-up-right">
+                                                <div class="category-image"><a href="rus/shop/avtozapchastini/"
+                                                                               target="_self" aria-label="Автозапчасти">
+
+
+
+                                                            <span class="container-async" style="padding-top: 100%">
+                                                                <picture class="async"
+                                                                         data-original-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg"
+                                                                         data-alt="" data-title="">
+                                                                    <source data-srcset="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp"
+                                                                            type="image/webp" data-alt="" data-title="">
+                                                                    <img class="async"
+                                                                         src="assets/Images/pic/kovaniy.webp"
+                                                                         style="height: 100%"
+                                                                         data-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg"
+                                                                         alt="" title="">
+                                                                </picture>
+                                                                <noscript>
+                                                                    <picture class="sync"><img class="sync"
+                                                                                               src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg"
+                                                                                               alt=""
+                                                                                               title=""></picture>
+                                                                </noscript>
+                                                            </span>
+                                                    <script type="application/ld+json">
+                                                        {
+                                                            "@context": "https://schema.org/",
+                                                            "@type": "ImageObject",
+                                                            "contentUrl": "WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg",
+                                                            "datePublished": "2023-03-15",
+                                                            "name": "",
+                                                            "width": 813,
+                                                            "height": 813
+                                                        }
+                                                    </script>
+                                                </a></div>
+                                                <div class="category-name forged-link"
+                                                     style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;">
+                                                    <a href="./assets/pages/kovani.html" target="_self"
+                                                       style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
+                                                        Ковані вироби
+                                                    </a></div>
+                                            </div>
+                                            <div class="category-block category-avtozapchastini max-4 desktop-4 tablet-3 mobile-1 min-3"
+                                                 data-aos="fade-up-left">
+                                                <div class="category-image"><a href="rus/shop/avtozapchastini/"
+                                                                               target="_self" aria-label="Автозапчасти">
+
+
+
+                                                            <span class="container-async" style="padding-top: 100%">
+                                                                <picture class="async"
+                                                                         data-original-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg"
+                                                                         data-alt="" data-title="">
+                                                                    <source data-srcset="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp"
+                                                                            type="image/webp" data-alt="" data-title="">
+                                                                    <img class="async"
+                                                                         src="assets/Images/pic/mdf.jpeg"
+                                                                         style="height: 100%"
+                                                                         data-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg"
+                                                                         alt="" title="">
+                                                                </picture>
+                                                                <noscript>
+                                                                    <picture class="sync"><img class="sync"
+                                                                                               src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg"
+                                                                                               alt=""
+                                                                                               title=""></picture>
+                                                                </noscript>
+                                                            </span>
+                                                    <script type="application/ld+json">
+                                                        {
+                                                            "@context": "https://schema.org/",
+                                                            "@type": "ImageObject",
+                                                            "contentUrl": "WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg",
+                                                            "datePublished": "2023-03-15",
+                                                            "name": "",
+                                                            "width": 813,
+                                                            "height": 813
+                                                        }
+                                                    </script>
+                                                </a></div>
+                                                <div class="category-name mdf-link"
+                                                     style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;">
+                                                    <a href="./assets/pages/mdf.html" target="_self"
+                                                       style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
+                                                        МДФ фасади для дверей
+                                                    </a></div>
+                                            </div>
+                                            <div class="category-block category-avtozapchastini max-4 desktop-4 tablet-3 mobile-1 min-3"
+                                                 data-aos="zoom-out-up">
+                                                <div class="category-image"><a href="rus/shop/avtozapchastini/"
+                                                                               target="_self" aria-label="Автозапчасти">
+
+
+
+                                                            <span class="container-async" style="padding-top: 100%">
+                                                                <picture class="async"
+                                                                         data-original-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg"
+                                                                         data-alt="" data-title="">
+                                                                    <source data-srcset="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp"
+                                                                            type="image/webp" data-alt="" data-title="">
+                                                                    <img class="async"
+                                                                         src="assets/Images/pic/mezhkomnatnye-dveri-razmer-auto_width_500.jpg"
+                                                                         style="height: 100%"
+                                                                         data-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg"
+                                                                         alt="" title="">
+                                                                </picture>
+                                                                <noscript>
+                                                                    <picture class="sync"><img class="sync"
+                                                                                               src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg"
+                                                                                               alt=""
+                                                                                               title=""></picture>
+                                                                </noscript>
+                                                            </span>
+                                                    <script type="application/ld+json">
+                                                        {
+                                                            "@context": "https://schema.org/",
+                                                            "@type": "ImageObject",
+                                                            "contentUrl": "WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg",
+                                                            "datePublished": "2023-03-15",
+                                                            "name": "",
+                                                            "width": 813,
+                                                            "height": 813
+                                                        }
+                                                    </script>
+                                                </a></div>
+                                                <div class="category-name interior-link"
+                                                     style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;">
+                                                    <a href="./assets/pages/dveri-mizhkomnatni.html" target="_self"
+                                                       style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
+                                                        Міжкімнатні двері
+                                                    </a></div>
+                                            </div>
+                                            <div class="category-block category-avtozapchastini max-4 desktop-4 tablet-3 mobile-1 min-3"
+                                                 data-aos="fade-up-right">
+                                                <div class="category-image"><a href="rus/shop/avtozapchastini/"
+                                                                               target="_self" aria-label="Автозапчасти">
+
+
+
+                                                            <span class="container-async" style="padding-top: 100%">
+                                                                <picture class="async"
+                                                                         data-original-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg"
+                                                                         data-alt="" data-title="">
+                                                                    <source data-srcset="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp"
+                                                                            type="image/webp" data-alt="" data-title="">
+                                                                    <img class="async"
+                                                                         src="assets/Images/pic/okna-metal.jpeg"
+                                                                         style="height: 100%"
+                                                                         data-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg"
+                                                                         alt="" title="">
+                                                                </picture>
+                                                                <noscript>
+                                                                    <picture class="sync"><img class="sync"
+                                                                                               src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg"
+                                                                                               alt=""
+                                                                                               title=""></picture>
+                                                                </noscript>
+                                                            </span>
+                                                    <script type="application/ld+json">
+                                                        {
+                                                            "@context": "https://schema.org/",
+                                                            "@type": "ImageObject",
+                                                            "contentUrl": "WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg",
+                                                            "datePublished": "2023-03-15",
+                                                            "name": "",
+                                                            "width": 813,
+                                                            "height": 813
+                                                        }
+                                                    </script>
+                                                </a></div>
+                                                <div class="category-name windows-link"
+                                                     style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;">
+                                                    <a href="./assets/pages/metal-okna.html" target="_self"
+                                                       style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
+                                                        Металопластикові вікна
+                                                    </a></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="layout-section advantage-cards" id="ei0iu">
+                <div class="row layout-row">
+                    <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-4 desktop-4 tablet-6 mobile-3 min-3"
+                         id="mszg3">
+                        <div class="layout-inner">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="g59hw">
+                                <div class="plugin-layout-inner" id="f-plugin">
+                                    <h2>01</h2>
+                                    <div>
+                                        <p><strong> Выгодные и 100% качественные товары </strong>Мы создали производство
+                                            европейского уровня</p> <img alt=""
+                                                                         data-src="Templates/Template_000011/Images/pic/winner.svg"
+                                                                         src="assets/Images/pic/winner.svg"
+                                                                         width="32" height="32"
+                                                                         class="async loader-async">
+                                        <noscript><img src="Media/demox-000-10/icons/profit.svg" alt="" title="">
+                                        </noscript>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-4 desktop-4 tablet-6 mobile-3 min-3"
+                         id="d8ayv">
+                        <div class="layout-inner">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="f02k7">
+                                <div class="plugin-layout-inner">
+                                    <h2>02</h2>
+                                    <div>
+                                        <p><strong> Рекомендуется страховщиками </strong>У нас Вы найдете выгодные и
+                                            100% качественные товары</p> <img alt=""
+                                                                              data-src="Templates/Template_000011/Images/pic/winner.svg"
+                                                                              src="assets/Images/pic/winner.svg"
+                                                                              width="32" height="32"
+                                                                              class="async loader-async">
+                                        <noscript><img src="Media/demox-000-10/icons/winner.svg" alt="" title="">
+                                        </noscript>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-4 desktop-4 tablet-6 mobile-3 min-3"
+                         id="uvh24">
+                        <div class="layout-inner">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="sf2qs">
+                                <div class="plugin-layout-inner">
+                                    <h2>03</h2>
+                                    <div>
+                                        <p><strong> Простое оформление и быстрая доставка </strong>Мы гордимся быстрой
+                                            работой наших сотрудников</p> <img alt=""
+                                                                               data-src="Templates/Template_000011/Images/pic/winner.svg"
+                                                                               src="assets/Images/pic/winner.svg"
+                                                                               width="32" height="32"
+                                                                               class="async loader-async">
+                                        <noscript><img src="Media/demox-000-10/icons/placeholder.svg" alt="" title="">
+                                        </noscript>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="layout-section faqs" id="v1mvo">
+                <div class="row layout-row" style="flex-direction: column">
+                    <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-12 desktop-12 tablet-6 mobile-3 min-3"
+                         id="sa9th">
+                        <div class="layout-inner">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="m8f88">
+                                <div class="plugin-layout-inner">
+                                    <h2 style="text-align: center;">FAQs</h2>
+                                    <p style="text-align: center; text-transform: uppercase; opacity: 0.8; margin-bottom: 30px;">
+                                        У вас есть какие-либо вопросы? У нас есть ответы!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-12 desktop-12 tablet-6 mobile-3 min-3"
+                         id="wpyum">
+                        <div class="layout-inner">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="cq1qe">
+                                <div class="plugin-layout-inner">
+                                    <div class="faq">
+                                        <div class="faq-item">
+                                            <input class="faq-input" type="checkbox" id="faq_1">
+                                            <label class="faq-title" for="faq_1">Как создать личный кабинет?</label>
+                                            <p class="faq-text">Для регистрации в Интернет-магазине, нажмите
+                                                на ссылку &laquo; Личный кабинет
+                                                &raquo;, затем на кнопку &laquo; Зарегистрироваться &raquo; и заполните
+                                                соответствующую форму.</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq">
+                                        <div class="faq-item">
+                                            <input class="faq-input" type="checkbox" id="faq_2">
+                                            <label class="faq-title" for="faq_2"></label>
+                                            <p class="faq-text">Для регистрации в Интернет-магазине, нажмите
+                                                на ссылку &laquo; Личный кабинет
+                                                &raquo;, затем на кнопку &laquo; Зарегистрироваться &raquo; и заполните
+                                                соответствующую форму.</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq">
+                                        <div class="faq-item">
+                                            <input class="faq-input" type="checkbox" id="faq_3">
+                                            <label class="faq-title" for="faq_3">Как создать личный кабинет?</label>
+                                            <p class="faq-text">Для регистрации в Интернет-магазине, нажмите
+                                                на ссылку &laquo; Личный кабинет
+                                                &raquo;, затем на кнопку &laquo; Зарегистрироваться &raquo; и заполните
+                                                соответствующую форму.</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq">
+                                        <div class="faq-item">
+                                            <input class="faq-input" type="checkbox" id="faq_4">
+                                            <label class="faq-title" for="faq_4">Как создать личный кабинет?</label>
+                                            <p class="faq-text">Для регистрации в Интернет-магазине, нажмите
+                                                на ссылку &laquo; Личный кабинет
+                                                &raquo;, затем на кнопку &laquo; Зарегистрироваться &raquo; и заполните
+                                                соответствующую форму.</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq">
+                                        <div class="faq-item">
+                                            <input class="faq-input" type="checkbox" id="faq_5">
+                                            <label class="faq-title" for="faq_5">Lorem ipsum dolor sit.</label>
+                                            <p class="faq-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit. Facere illum incidunt nobis optio sapiente suscipit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </div>
+    <span id="widget-footer">
+            <section class="layout-section" id="xdwax" style="padding: 28px 0 0 0;">
+                <div class="row layout-row" style="display: flex; justify-content: center;">
+                    <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-4 desktop-4 tablet-2 mobile-3 min-3"
+                         id="gjm9e">
+                        <div class="layout-inner">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="soulm">
+                                <div class="plugin-layout-inner">
+
+
+
+                                    <div class="logo-plugin logo-default" id="logo-soulm">
+                                        <div class="logo-container" style="margin: auto auto auto 0;">
+                                            <span class="logo-image-main">
+                                                <img alt="Інтернет-магазин" title="Інтернет-магазин"
+                                                     data-src="Media/demox-000-10/logo/CarGoods_logo.svg"
+                                                     src="assets/Images/pic/sezam-logo.jpg"
+                                                     width="72"
+                                                     height="52" class="async">
+                                                <noscript><img src="Media/demox-000-10/logo/CarGoods_logo.svg"
+                                                               alt="Інтернет-магазин"
+                                                               title="Інтернет-магазин"></noscript></span> </div>
+                                    </div>
+                                    <script>
+                                        function SetWidth_soulm(width) {
+                                            if (width) $("#logo-soulm .logo-container").css("width", width);
+                                            else $("#logo-soulm .logo-container").css("width", "100%");
+                                        }
+
+                                        function GetSettings_soulm() {
+                                            if (window.innerWidth >= 1220) SetWidth_soulm("150px")
+                                            else if (window.innerWidth >= 980 && window.innerWidth < 1220) SetWidth_soulm("150px")
+                                            else if (window.innerWidth >= 740 && window.innerWidth < 979) SetWidth_soulm("130px")
+                                            else if (window.innerWidth >= 500 && window.innerWidth < 739) SetWidth_soulm("150px")
+                                            else SetWidth_soulm("130px")
+                                        }
+
+                                        $(document).ready(function () {
+                                            GetSettings_soulm();
+                                        });
+
+                                        $(window).resize(() => {
+                                            GetSettings_soulm();
+                                        });
+                                    </script>
+                                </div>
+                            </div>
+                            <div class="layout-cell-plugin layout-cell-plugin" id="ms8mn">
+                                <div class="plugin-layout-inner">
+                                    <p class="location">м. Харків, вул. Пушкінська 56</p>
+                                    <p class="phone" style="flex-direction: column; display: flex">
+                                        <a style="position: static" href="tel:+380677527969">+38 (067) 752 79 69</a>
+                                    <a href="tel:+380953229283" style="position: static">+38 (095)-322-92-83</a></p>
+                                    <p class="email"><a style="position: static" href="mailto:sezam95@ukr.net">sezam95@ukr.net</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layout-cell tablet-hide max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-2 desktop-2 tablet-2 mobile-3 min-3 tablet-push-2"
+                         id="n61bj">
+                        <div class="layout-inner">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="g8xdt">
+                                <div class="plugin-layout-inner">
+                                    <h5>Меню</h5>
+                                </div>
+                            </div>
+                            <div class="layout-cell-plugin layout-cell-plugin" id="xpke1">
+                                <div class="plugin-layout-inner">
+                                    <div class="plugin-menu align-left fontsize-16 rowspacing-0 itemsspacing-0 color-#363636">
+                                        <nav class="menu-vertical">
+                                            <ul style="text-align: left;">
+                                                <li id="menu-item-home" class="current has-no-submenu has-no-widget"> <a
+                                                        href="index.html" target="_self"
+                                                        style="color: #363636; font-size: 16px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 0px;">
+                                                        Главная
+                                                    </a> </li>
+                                                <li class="menu-item-for-customers"
+                                                    class="common has-no-submenu has-no-widget"> <a
+                                                        href="#555" target="_self"
+                                                        style="color: #363636; font-size: 16px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 0px;">
+                                                        Категории
+                                                    </a> </li>
+
+                                                <li class="menu-item-for-customers"
+                                                    class="common has-no-submenu has-no-widget"> <a
+                                                        href="index.html" target="_self"
+                                                        style="color: #363636; font-size: 16px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 0px;">
+                                                        Покупателям
+                                                    </a> </li>
+                                                <li id="menu-item-contacts" class="common has-no-submenu has-no-widget"> <a
+                                                        href="./assets/pages/contacts.html" target="_self"
+                                                        style="color: #363636; font-size: 16px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 0px;">
+                                                        Контакты
+                                                    </a> </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-3 desktop-3 tablet-2 mobile-3 min-3"
+                         id="j1gqj">
+                        <div class="layout-inner">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="vy6im">
+                                <div class="plugin-layout-inner">
+                                    <p><strong>Мы в социальных сетях</strong></p>
+                                </div>
+                            </div>
+                            <div class="layout-cell-plugin layout-cell-plugin" id="cb8uq">
+                                <div class="plugin-layout-inner">
+                                    <div class="plugin-default social-networks" style="text-align: left;">
+                                        <div class="plugin-default-social-networks with-style"
+                                             style="margin-left: 3px; margin-right: 3px;">
+                                            <div class="social-networks">
+                                                <a href="https://www.facebook.com/"
+                                                   target="Blank" rel="nofollow"
+                                                   aria-label="Facebook">
+                                                    <span style="background-color: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                             xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                             xmlns:svgjs="http://svgjs.com/svgjs" version="1.1"
+                                                             width="100%" height="100%" x="0" y="0" viewbox="0 0 24 24"
+                                                             xml:space="preserve" class=""
+                                                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                                             xsi:schemaLocation="http://svgjs.com/svgjs ">
+                                                            <g>
+                                                                <path xmlns="http://www.w3.org/2000/svg"
+                                                                      d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"
+                                                                      fill="#363636" data-original="#000000"></path>
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+
+                                                </a> </div>
+                                        </div>
+                                        <div class="plugin-default-social-networks with-style"
+                                             style="margin-left: 3px; margin-right: 3px;">
+                                            <div class="social-networks"> <a href="https://www.instagram.com/"
+                                                                             target="Blank" rel="nofollow"
+                                                                             aria-label="Instagram">
+                                                    <span style="background: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 511 511.9">
+                                                            <path fill="#363636"
+                                                                  d="M510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5C407.851562 7.199219 389.25 2.800781 362.050781 1.601562 334.648438.300781 325.949219 0 256.449219 0s-78.199219.300781-105.5 1.5C123.75 2.699219 105.050781 7.101562 88.851562 13.398438 71.648438 19.898438 56.25 29.898438 43.449219 43c-13 12.800781-23.097657 28.300781-29.5 45.300781C7.648438 104.601562 3.25 123.199219 2.050781 150.398438.75 177.800781.449219 186.5.449219 256s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438C56.25 482 71.75 492.101562 88.75 498.5c16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5C389.050781 509.199219 407.75 504.800781 423.949219 498.5c34.402343-13.300781 61.601562-40.5 74.902343-74.898438C505.148438 407.300781 509.550781 388.699219 510.75 361.5c1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876C94.550781 451.5 84.449219 445 76.25 436.5c-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5C61.25 94.199219 67.75 84.101562 76.351562 75.898438c8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0"></path>
+                                                            <path fill="#363636"
+                                                                  d="M256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781C303.550781 170.699219 341.75 208.898438 341.75 256s-38.199219 85.300781-85.300781 85.300781zM423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0"></path>
+                                                        </svg>
+                                                    </span>
+
+                                                </a> </div>
+                                        </div>
+                                        <div class="plugin-default-social-networks with-style"
+                                             style="margin-left: 3px; margin-right: 3px;">
+                                            <div class="social-networks"> <a href="viber://chat?number=%2B380999999999"
+                                                                             target="Blank" rel="nofollow"
+                                                                             aria-label="Viber">
+                                                    <span style="background-color: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 152 152">
+                                                            <path fill="#363636"
+                                                                  d="M89 11H63c-25.2 0-45.5 20.3-45.5 45.5V76c0 17.6 10.1 33.6 26 41.1v21.8c0 1.1 1 2.1 2.3 2.1.5 0 1.1-.2 1.5-.6l18.8-18.9H89c25.2 0 45.5-20.3 45.5-45.5V56.5C134.5 31.3 114.2 11 89 11zm17.1 85.3-6.5 6.5c-7 6.8-25-1-40.9-17.2s-23-34.5-16.3-41.3l6.5-6.5c2.6-2.4 6.7-2.3 9.3.2l9.4 9.8c2.4 2.6 2.4 6.5-.2 9.1-.7.7-1.5 1.1-2.4 1.5-3.3 1-5 4.2-4.2 7.5 1.6 7.2 10.7 16.2 17.6 18 3.2.8 6.5-1 7.6-4.1 1.1-3.2 4.7-5 8.1-3.9 1 .3 1.8 1 2.6 1.6l9.4 9.8c2.4 2.4 2.4 6.4 0 9zM81.8 41.9c-.7 0-1.3 0-1.9.2-1.1.2-2.3-.7-2.4-2s.7-2.3 1.9-2.4c.8-.2 1.6-.2 2.4-.2 12 0 21.6 9.8 21.8 21.6 0 .8 0 1.6-.2 2.4-.2 1.1-1.1 2.1-2.4 1.9s-2.1-1.1-1.9-2.4c0-.7.2-1.3.2-1.9-.1-9.4-7.9-17.2-17.5-17.2zm13 17.4c-.2 1.1-1.1 2.1-2.4 1.9-1-.2-1.9-1-1.9-1.9 0-4.7-3.9-8.6-8.6-8.6-1.1.2-2.3-.8-2.4-2-.2-1.1.8-2.3 1.9-2.4h.3c7.5 0 13.1 5.8 13.1 13zm16.6 6.9c-.2 1.1-1.3 1.9-2.4 1.8s-1.9-1.3-1.8-2.4v-.3c.5-1.9.7-3.9.7-6 0-14.3-11.7-26-26-26H80c-1.1.2-2.3-.8-2.3-2-.2-1.1.8-2.3 1.9-2.3.8 0 1.6-.2 2.3-.2 16.7 0 30.4 13.6 30.4 30.4-.1 2.3-.4 4.8-.9 7z"></path>
+                                                        </svg>
+                                                    </span>
+
+                                                </a> </div>
+                                        </div>
+                                        <div class="plugin-default-social-networks with-style"
+                                             style="margin-left: 3px; margin-right: 3px;">
+                                            <div class="social-networks"> <a href="tg://resolve?domain=username/"
+                                                                             target="Blank" rel="nofollow"
+                                                                             aria-label="Telegram">
+                                                    <span style="background-color: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                                                            <path fill="#363636"
+                                                                  d="m9.417 15.181-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931L23.93 3.821l.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431 1.374-.247 1.741l5.443 1.693L18.953 5.78c.595-.394 1.136-.176.691.218z"></path>
+                                                        </svg>
+                                                    </span>
+
+                                                </a> </div>
+                                        </div>
+                                        <div class="plugin-default-social-networks with-style"
+                                             style="margin-left: 3px; margin-right: 3px;">
+                                            <div class="social-networks"> <a
+                                                    href="https://api.whatsapp.com/send?phone=+380999999999"
+                                                    target="Blank" rel="nofollow" aria-label="WhatsApp">
+                                                    <span style="background: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve"
+                                                             style="enable-background:new 0 0 512 512"
+                                                             viewbox="0 0 512 512">
+                                                            <path fill="#363636"
+                                                                  d="M256.064 0h-.128C114.784 0 0 114.816 0 256c0 56 18.048 107.904 48.736 150.048l-31.904 95.104 98.4-31.456C155.712 496.512 204 512 256.064 512 397.216 512 512 397.152 512 256S397.216 0 256.064 0zm148.96 361.504c-6.176 17.44-30.688 31.904-50.24 36.128-13.376 2.848-30.848 5.12-89.664-19.264-75.232-31.168-123.68-107.616-127.456-112.576-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624 26.176-62.304c6.176-6.304 16.384-9.184 26.176-9.184 3.168 0 6.016.16 8.576.288 7.52.32 11.296.768 16.256 12.64 6.176 14.88 21.216 51.616 23.008 55.392 1.824 3.776 3.648 8.896 1.088 13.856-2.4 5.12-4.512 7.392-8.288 11.744-3.776 4.352-7.36 7.68-11.136 12.352-3.456 4.064-7.36 8.416-3.008 15.936 4.352 7.36 19.392 31.904 41.536 51.616 28.576 25.44 51.744 33.568 60.032 37.024 6.176 2.56 13.536 1.952 18.048-2.848 5.728-6.176 12.8-16.416 20-26.496 5.12-7.232 11.584-8.128 18.368-5.568 6.912 2.4 43.488 20.48 51.008 24.224 7.52 3.776 12.48 5.568 14.304 8.736 1.792 3.168 1.792 18.048-4.384 35.52z"></path>
+                                                        </svg>
+                                                    </span>
+
+                                                </a> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="layout-section" id="l7wbg" >
+                <div class="row layout-row">
+                    <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-4 desktop-4 tablet-3 mobile-3 min-3"
+                         id="um23h" style="width: 100%">
+                        <div class="layout-inner">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="bqfj3">
+                                <div class="plugin-layout-inner">
+                                    <p style="text-align: center;">Sezam &copy; <span class="date">-</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-4 desktop-4 tablet-3 mobile-3 min-3"
+                         id="s8p80">
+                        <div class="layout-inner">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="nlxs7">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </span>
+</div>
+
+<div class="sidebar-popup shopping-cart hidden" data-url="rus/sidebar/shoppingcart"
+     data-express-checkout-url="rus/sidebar/sidebarexpresscheckout">
+    <div class="loader">
+        <div class="loader-inner">Loading...</div>
+    </div>
+    <div class="message">
+        <div class="subtitle"></div>
+        <div class="message-data"></div>
+        <div class="message-button">
+            <button type="button" class="btn btn-default close-message">
+                Закрыть
+            </button>
+        </div>
+    </div>
+    <div><a href="#" class="close-dark" title="Закрыть">
+        <img width="20" height="20" alt="Закрыть" title="Закрыть" data-src="Templates/Template_000011/Images/close.svg"
+             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+             class="async loader-async">
+        <noscript><img src="assets/Images/close.svg" alt="Закрыть" title="Закрыть"></noscript>
+    </a></div>
+    <div class="content"></div>
+</div>
+
+
+<script type="text/html" id="price-regular-template">
+    <div class="product-price-regular"><span class="regular-price" data-content="Price"></span></div>
+</script>
+<script type="text/html" id="price-action-template">
+    <div class="product-price-action"><span class="regular-price" data-content="Price"></span> <span
+            class="action-price" data-content="ActionPrice"></span></div>
+</script>
+
+
+<div id="container" style="display: none">
+    <div id="sticky"><a class="ui-notify-close ui-notify-cross close" href="#"></a>
+        <div>#{title}</div>
+        <p>#{text}</p>
+    </div>
+</div>
+<nav id="menu" class="default-menu-mobile">
+    <ul>
+        <ul>
+            <li class="menu-title"><strong>
+                Меню
+            </strong></li>
+            <li class="menu-item-home" class="current has-no-submenu has-no-widget"><a href="/" target="_self">
+                Главная
+            </a></li>
+            <li id="menu-item-for-customers" class="common has-no-submenu has-no-widget"><a href="rus/for-customers/"
+                                                                                            target="_self"
+                                                                                            style="color: #363636; font-size: 16px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 0px;">
+                Категории
+            </a></li>
+
+            <li class="menu-item-for-customers" class="common has-submenu has-no-widget"><a href="rus/for-customers/"
+                                                                                            target="_self">
+                Покупателям
+            </a>
+                <ul class="submenu">
+                    <li class="menu-item-pro-nas" class="common has-no-submenu has-no-widget submenu"><a
+                            href="rus/for-customers/pro-nas/" target="_self">
+                        О нас
+                    </a></li>
+                    <li class="menu-item-dostavka-i-oplata" class="common has-no-submenu has-no-widget submenu"><a
+                            href="rus/for-customers/dostavka-i-oplata/" target="_self">
+                        Доставка и оплата
+                    </a></li>
+                </ul>
+            </li>
+            <li class="menu-item-contacts" class="common has-no-submenu has-no-widget"><a href="contacts.html"
+                                                                                          target="_self">
+                Контакты
+            </a></li>
+        </ul>
+        <ul>
+            <li class="menu-title"><strong>
+                Магазин
+            </strong></li>
+            <li id="avtoaksesuari" class=""><a href="rus/shop/avtoaksesuari/" target="_self">Автоаксессуары</a></li>
+            <li id="olivi-motorni" class=""><a href="rus/shop/olivi-motorni/" target="_self">Масло моторное</a></li>
+            <li id="avtoelektronika" class=""><a href="rus/shop/avtoelektronika/" target="_self">Автоэлектроника</a>
+            </li>
+            <li id="doglyad-za-avto" class=""><a href="rus/shop/doglyad-za-avto/" target="_self">Уход за авто</a></li>
+            <li id="avtozapchastini" class=""><a href="rus/shop/avtozapchastini/" target="_self">Автозапчасти</a></li>
+            <li id="ridini-omivacha-skla" class=""><a href="rus/shop/ridini-omivacha-skla/" target="_self">Жидкости
+                омывателя стекла</a></li>
+        </ul>
+        <ul>
+            <li class="menu-title"><strong>
+                Язык
+            </strong></li>
+            <li class="mobile-language-ukr"><a href="">Ukr</a></li>
+            <li class="current mobile-language-rus"><a href="rus/">Rus</a></li>
+            <li class="mobile-language-eng"><a href="eng/">Eng</a></li>
+        </ul>
+        <ul>
+            <li class="menu-title"><strong>
+                Валюта
+            </strong></li>
+            <li class="currency currency-21228 code-uah default"><a href="#" data-currency="21228">
+                UAH </a></li>
+            <li class="currency currency-21229 code-usd"><a href="#" data-currency="21229">
+                USD </a></li>
+        </ul>
+    </ul>
+</nav>
+
+
+<!-- Подключение библиотек ScrollMagic и TweenMax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+<!--<script>-->
+<!--    // Создание нового контроллера ScrollMagic-->
+<!--    var controller = new ScrollMagic.Controller();-->
+
+<!--    // Создание сцены ScrollMagic-->
+<!--    var scene = new ScrollMagic.Scene({-->
+<!--        triggerElement: ".animated-text", // Элемент, при достижении которого начнется анимация-->
+<!--        triggerHook: 0.8, // Момент старта анимации, относительно высоты экрана (80%)-->
+<!--        reverse: false // Отключение обратного проигрывания анимации при скроллинге назад-->
+<!--    })-->
+<!--        .on("enter", function () {-->
+<!--            // Анимация появления текста-->
+<!--            TweenMax.to(".animated-text", 0.5, {opacity: 1, y: 0, ease: "easeOut"});-->
+<!--        })-->
+<!--        .on("leave", function () {-->
+<!--            // Анимация исчезания текста-->
+<!--            TweenMax.to(".animated-text", 0.5, {opacity: 0, y: -30, ease: "easeOut"});-->
+<!--        })-->
+<!--        .addTo(controller); // Добавление сцены в контроллер-->
+<!--</script>-->
+
+<script>
+    AOS.init();
+</script>
+
+<script src="//code.jivosite.com/widget/ojrFVsrVoA" async></script>
+
+<script src="assets/scripts/index.js"></script>
+<script src="assets/scripts/routing.js"></script>
+</body>
+
+</html>

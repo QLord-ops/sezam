@@ -1,0 +1,1999 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Главная › Інтернет-магазин</title>
+    <meta charset="utf-8">
+    <meta content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
+          name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="robots">
+    <meta content="Ecosite Cms 8x" name="generator">
+    <meta content="ru_Ru" property="og:locale">
+    <meta content="website" property="og:type">
+    <meta content="rus/" property="og:url">
+    <meta content="Главная" property="og:title">
+    <meta content="" property="og:description">
+    <meta property="og:image">
+    <meta property="og:site_name">
+    <meta content="summary" name="twitter:card">
+    <meta content="Главная" name="twitter:title">
+    <meta content="" name="twitter:description">
+    <meta name="twitter:image">
+    <link href="rus/" rel="canonical">
+    <link href="./../Media/demox-000/developer-folder/favicon/favicon.png" rel="shortcut icon">
+    <link href="" hreflang="uk" rel="alternate">
+    <link href="rus/" hreflang="ru" rel="alternate">
+    <link href="eng/" hreflang="en" rel="alternate">
+    <link href="" hreflang="x-default" rel="alternate">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="../styles/default.css" rel="stylesheet">
+    <link href="../styles/style.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        let userInfo;
+        const language = 2;
+        const showCart = true;
+    </script>
+    <noscript>
+        <style type="text/css">
+            span.container-async.loader-async picture.async,
+            img.async {
+                display: none;
+            }
+
+            .loader-async {
+                background-image: none !important;
+            }
+        </style>
+    </noscript>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0
+        }
+
+
+        .sidebar-popup.hidden {
+            display: none
+        }
+
+        .loader .loader-inner {
+            display: none
+        }
+
+        .loader.show .loader-inner {
+            display: block
+        }
+
+        .default-menu-mobile ul {
+            display: none
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box
+        }
+
+        .gridlock section.full-width > .row {
+            width: 100%
+        }
+
+        .gridlock .editor-grid {
+            top: 0;
+            height: 100%;
+            opacity: .25;
+            position: fixed;
+            margin-left: 50%;
+            margin-right: 50%;
+            width: 300px;
+            transform: translateX(-50%)
+        }
+
+        .gridlock .editor-grid [class*="all-"]:not([class*="all-hide"]),
+        .gridlock .editor-grid [class*="min-"]:not([class*="min-hide"]),
+        .gridlock .editor-grid [class*="mobile-"]:not([class*="mobile-hide"]),
+        .gridlock .editor-grid [class*="tablet-"]:not([class*="tablet-hide"]),
+        .gridlock .editor-grid [class*="desktop-"]:not([class*="desktop-hide"]),
+        .gridlock .editor-grid [class*="max-"]:not([class*="max-hide"]) {
+            float: left;
+            height: 100%;
+            margin-left: 1.04166667%;
+            margin-right: 1.04166667%;
+            border-left: 1px solid rgba(0, 0, 0, .25);
+            border-right: 1px solid rgba(0, 0, 0, .25)
+        }
+
+        .gridlock .row {
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        .gridlock .row:after {
+            height: 0;
+            clear: both;
+
+            display: block;
+            line-height: 0;
+            overflow: hidden;
+            visibility: hidden
+        }
+
+        .gridlock .row .row {
+            width: 102.08333333%;
+            margin-left: -1.04166667%;
+            margin-right: -1.04166667%
+        }
+
+        .gridlock .row .contained .row {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0
+        }
+
+        .gridlock .row [class*="all-"]:not([class*="all-hide"]),
+        .gridlock .row [class*="min-"]:not([class*="min-hide"]),
+        .gridlock .row [class*="mobile-"]:not([class*="mobile-hide"]),
+        .gridlock .row [class*="tablet-"]:not([class*="tablet-hide"]),
+        .gridlock .row [class*="desktop-"]:not([class*="desktop-hide"]),
+        .gridlock .row [class*="max-"]:not([class*="max-hide"]) {
+            float: left;
+            margin-left: 1.04166667%;
+            margin-right: 1.04166667%
+        }
+
+        .gridlock .row [class*="all-"].padded:not([class*=all-hide]),
+        .gridlock .row [class*="min-"].padded:not([class*=min-hide]),
+        .gridlock .row [class*="mobile-"].padded:not([class*=mobile-hide]),
+        .gridlock .row [class*="tablet-"].padded:not([class*=tablet-hide]),
+        .gridlock .row [class*="desktop-"].padded:not([class*=desktop-hide]),
+        .gridlock .row [class*="max-"].padded:not([class*=max-hide]) {
+            box-sizing: content-box;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 1.04166667%;
+            padding-right: 1.04166667%
+        }
+
+        .gridlock .row [class*="all-"].contained:not([class*=all-hide]),
+        .gridlock .row [class*="min-"].contained:not([class*=min-hide]),
+        .gridlock .row [class*="mobile-"].contained:not([class*=mobile-hide]),
+        .gridlock .row [class*="tablet-"].contained:not([class*=tablet-hide]),
+        .gridlock .row [class*="desktop-"].contained:not([class*=desktop-hide]),
+        .gridlock .row [class*="max-"].contained:not([class*=max-hide]) {
+            margin-left: 0;
+            margin-right: 0
+        }
+
+        .gridlock .row [class*="all-"].right:not([class*=all-hide]),
+        .gridlock .row [class*="min-"].right:not([class*=min-hide]),
+        .gridlock .row [class*="mobile-"].right:not([class*=mobile-hide]),
+        .gridlock .row [class*="tablet-"].right:not([class*=tablet-hide]),
+        .gridlock .row [class*="desktop-"].right:not([class*=desktop-hide]),
+        .gridlock .row [class*="max-"].right:not([class*=max-hide]) {
+            float: right
+        }
+
+        @media screen and (min-width: 500px) {
+            .gridlock .row {
+                width: 480px
+            }
+
+            .gridlock .editor-grid {
+                width: 480px
+            }
+        }
+
+        @media screen and (min-width: 740px) {
+            .gridlock .row {
+                width: 720px
+            }
+
+            .gridlock .editor-grid {
+                width: 720px
+            }
+        }
+
+        @media screen and (min-width: 980px) {
+            .gridlock .row {
+                width: 960px
+            }
+
+            .gridlock .editor-grid {
+                width: 960px
+            }
+        }
+
+        @media screen and (min-width: 1220px) {
+            .gridlock .row {
+                width: 1200px
+            }
+
+            .gridlock .editor-grid {
+                width: 1200px
+            }
+        }
+
+        .gridlock-fluid .row {
+            width: 98%
+        }
+
+        .gridlock-fluid .editor-grid {
+            width: 98%
+        }
+
+        @media screen and (max-width: 739px) {
+            .gridlock-mobile-fluid .row {
+                width: 98%
+            }
+
+            .gridlock-mobile-fluid .editor-grid {
+                width: 98%
+            }
+        }
+
+        .gridlock .row [class*="all-"].centered:not([class*="all-hide"]) {
+            float: none;
+            clear: both;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        .gridlock .row .all-hide {
+            display: none
+        }
+
+        @media screen and (max-width: 499px) {
+            .gridlock .row .min-1 {
+                width: 31.25%
+            }
+
+            .gridlock .row .min-2 {
+                width: 64.58333333%
+            }
+
+            .gridlock .row .min-3 {
+                width: 97.91666667%
+            }
+
+            .gridlock .row .min-push-1:not([class*="min-hide"]) {
+                margin-left: 34.375%
+            }
+
+            .gridlock .row .min-push-2:not([class*="min-hide"]) {
+                margin-left: 67.70833333%
+            }
+
+            .gridlock .row .min-push-3:not([class*="min-hide"]) {
+                margin-left: 101.04166667%
+            }
+
+            .gridlock .row .contained.min-1 {
+                width: 33.33333333%
+            }
+
+            .gridlock .row .contained.min-2 {
+                width: 66.66666667%
+            }
+
+            .gridlock .row .contained.min-3 {
+                width: 100%
+            }
+
+            .gridlock .row .contained.min-push-1:not([class*="min-hide"]) {
+                margin-left: 33.33333333%
+            }
+
+            .gridlock .row .contained.min-push-2:not([class*="min-hide"]) {
+                margin-left: 66.66666667%
+            }
+
+            .gridlock .row .contained.min-push-3:not([class*="min-hide"]) {
+                margin-left: 100%
+            }
+
+            .gridlock .row [class*="min-"].centered:not([class*="min-hide"]) {
+                float: none;
+                clear: both;
+                margin-left: auto;
+                margin-right: auto
+            }
+
+            .gridlock .row .min-hide {
+                display: none
+            }
+
+            .gridlock .editor-grid .min-1 {
+                width: 31.25%
+            }
+
+            .gridlock .editor-grid .min-2 {
+                width: 31.25%
+            }
+
+            .gridlock .editor-grid .min-3 {
+                width: 31.25%
+            }
+
+            .gridlock .editor-grid [class*="tablet-"]:not([class*="tablet-hide"]),
+            .gridlock .editor-grid [class*="desktop-"]:not([class*="desktop-hide"]) {
+                display: none
+            }
+        }
+
+        @media screen and (min-width: 500px) and (max-width: 739px) {
+            .gridlock .row .mobile-1 {
+                width: 31.25%
+            }
+
+            .gridlock .row .mobile-2 {
+                width: 64.58333333%
+            }
+
+            .gridlock .row .mobile-3 {
+                width: 97.91666667%
+            }
+
+            .gridlock .row .mobile-push-1:not([class*="mobile-hide"]) {
+                margin-left: 34.375%
+            }
+
+            .gridlock .row .mobile-push-2:not([class*="mobile-hide"]) {
+                margin-left: 67.70833333%
+            }
+
+            .gridlock .row .mobile-push-3:not([class*="mobile-hide"]) {
+                margin-left: 101.04166667%
+            }
+
+            .gridlock .row .contained.mobile-1 {
+                width: 33.33333333%
+            }
+
+            .gridlock .row .contained.mobile-2 {
+                width: 66.66666667%
+            }
+
+            .gridlock .row .contained.mobile-3 {
+                width: 100%
+            }
+
+            .gridlock .row .contained.mobile-push-1:not([class*="mobile-hide"]) {
+                margin-left: 33.33333333%
+            }
+
+            .gridlock .row .contained.mobile-push-2:not([class*="mobile-hide"]) {
+                margin-left: 66.66666667%
+            }
+
+            .gridlock .row .contained.mobile-push-3:not([class*="mobile-hide"]) {
+                margin-left: 100%
+            }
+
+            .gridlock .row [class*="mobile-"].centered:not([class*="mobile-hide"]) {
+                float: none;
+                clear: both;
+                margin-left: auto;
+                margin-right: auto
+            }
+
+            .gridlock .row .mobile-hide {
+                display: none
+            }
+
+            .gridlock .editor-grid .mobile-1 {
+                width: 31.25%
+            }
+
+            .gridlock .editor-grid .mobile-2 {
+                width: 31.25%
+            }
+
+            .gridlock .editor-grid .mobile-3 {
+                width: 31.25%
+            }
+
+            .gridlock .editor-grid [class*="tablet-"]:not([class*="tablet-hide"]),
+            .gridlock .editor-grid [class*="desktop-"]:not([class*="desktop-hide"]) {
+                display: none
+            }
+        }
+
+        @media screen and (min-width: 740px) and (max-width: 979px) {
+            .gridlock .row .tablet-1 {
+                width: 14.58333333%
+            }
+
+            .gridlock .row .tablet-2 {
+                width: 31.25%
+            }
+
+            .gridlock .row .tablet-3 {
+                width: 47.91666667%
+            }
+
+            .gridlock .row .tablet-4 {
+                width: 64.58333333%
+            }
+
+            .gridlock .row .tablet-5 {
+                width: 81.25%
+            }
+
+            .gridlock .row .tablet-6 {
+                width: 97.91666667%
+            }
+
+            .gridlock .row .tablet-push-1:not([class*="tablet-hide"]) {
+                margin-left: 17.70833333%
+            }
+
+            .gridlock .row .tablet-push-2:not([class*="tablet-hide"]) {
+                margin-left: 34.375%
+            }
+
+            .gridlock .row .tablet-push-3:not([class*="tablet-hide"]) {
+                margin-left: 51.04166667%
+            }
+
+            .gridlock .row .tablet-push-4:not([class*="tablet-hide"]) {
+                margin-left: 67.70833333%
+            }
+
+            .gridlock .row .tablet-push-5:not([class*="tablet-hide"]) {
+                margin-left: 84.375%
+            }
+
+            .gridlock .row .tablet-push-6:not([class*="tablet-hide"]) {
+                margin-left: 101.04166667%
+            }
+
+            .gridlock .row .contained.tablet-1 {
+                width: 16.66666667%
+            }
+
+            .gridlock .row .contained.tablet-2 {
+                width: 33.33333333%
+            }
+
+            .gridlock .row .contained.tablet-3 {
+                width: 50%
+            }
+
+            .gridlock .row .contained.tablet-4 {
+                width: 66.66666667%
+            }
+
+            .gridlock .row .contained.tablet-5 {
+                width: 83.33333333%
+            }
+
+            .gridlock .row .contained.tablet-6 {
+                width: 100%
+            }
+
+            .gridlock .row .contained.tablet-push-1:not([class*="tablet-hide"]) {
+                margin-left: 16.66666667%
+            }
+
+            .gridlock .row .contained.tablet-push-2:not([class*="tablet-hide"]) {
+                margin-left: 33.33333333%
+            }
+
+            .gridlock .row .contained.tablet-push-3:not([class*="tablet-hide"]) {
+                margin-left: 50%
+            }
+
+            .gridlock .row .contained.tablet-push-4:not([class*="tablet-hide"]) {
+                margin-left: 66.66666667%
+            }
+
+            .gridlock .row .contained.tablet-push-5:not([class*="tablet-hide"]) {
+                margin-left: 83.33333333%
+            }
+
+            .gridlock .row .contained.tablet-push-6:not([class*="tablet-hide"]) {
+                margin-left: 100%
+            }
+
+            .gridlock .row [class*="tablet-"].centered:not([class*="tablet-hide"]) {
+                float: none;
+                clear: both;
+                margin-left: auto;
+                margin-right: auto
+            }
+
+            .gridlock .row .tablet-hide {
+                display: none
+            }
+
+            .gridlock .editor-grid .tablet-1 {
+                width: 14.58333333%
+            }
+
+            .gridlock .editor-grid .tablet-2 {
+                width: 14.58333333%
+            }
+
+            .gridlock .editor-grid .tablet-3 {
+                width: 14.58333333%
+            }
+
+            .gridlock .editor-grid .tablet-4 {
+                width: 14.58333333%
+            }
+
+            .gridlock .editor-grid .tablet-5 {
+                width: 14.58333333%
+            }
+
+            .gridlock .editor-grid .tablet-6 {
+                width: 14.58333333%
+            }
+
+            .gridlock .editor-grid [class*="mobile-"]:not([class*="mobile-hide"]),
+            .gridlock .editor-grid [class*="desktop-"]:not([class*="desktop-hide"]) {
+                display: none
+            }
+        }
+
+        @media screen and (min-width: 980px) and (max-width: 1219px) {
+            .gridlock .row .desktop-1 {
+                width: 6.25%
+            }
+
+            .gridlock .row .desktop-2 {
+                width: 14.58333333%
+            }
+
+            .gridlock .row .desktop-3 {
+                width: 22.91666667%
+            }
+
+            .gridlock .row .desktop-4 {
+                width: 31.25%
+            }
+
+            .gridlock .row .desktop-5 {
+                width: 39.58333333%
+            }
+
+            .gridlock .row .desktop-6 {
+                width: 47.91666667%
+            }
+
+            .gridlock .row .desktop-7 {
+                width: 56.25%
+            }
+
+            .gridlock .row .desktop-8 {
+                width: 64.58333333%
+            }
+
+            .gridlock .row .desktop-9 {
+                width: 72.91666667%
+            }
+
+            .gridlock .row .desktop-10 {
+                width: 81.25%
+            }
+
+            .gridlock .row .desktop-11 {
+                width: 89.58333333%
+            }
+
+            .gridlock .row .desktop-12 {
+                width: 97.91666667%
+            }
+
+            .gridlock .row .desktop-push-1:not([class*="desktop-hide"]) {
+                margin-left: 9.375%
+            }
+
+            .gridlock .row .desktop-push-2:not([class*="desktop-hide"]) {
+                margin-left: 17.70833333%
+            }
+
+            .gridlock .row .desktop-push-3:not([class*="desktop-hide"]) {
+                margin-left: 26.04166667%
+            }
+
+            .gridlock .row .desktop-push-4:not([class*="desktop-hide"]) {
+                margin-left: 34.375%
+            }
+
+            .gridlock .row .desktop-push-5:not([class*="desktop-hide"]) {
+                margin-left: 42.70833333%
+            }
+
+            .gridlock .row .desktop-push-6:not([class*="desktop-hide"]) {
+                margin-left: 51.04166667%
+            }
+
+            .gridlock .row .desktop-push-7:not([class*="desktop-hide"]) {
+                margin-left: 59.375%
+            }
+
+            .gridlock .row .desktop-push-8:not([class*="desktop-hide"]) {
+                margin-left: 67.70833333%
+            }
+
+            .gridlock .row .desktop-push-9:not([class*="desktop-hide"]) {
+                margin-left: 76.04166667%
+            }
+
+            .gridlock .row .desktop-push-10:not([class*="desktop-hide"]) {
+                margin-left: 84.375%
+            }
+
+            .gridlock .row .desktop-push-11:not([class*="desktop-hide"]) {
+                margin-left: 92.70833333%
+            }
+
+            .gridlock .row .desktop-push-12:not([class*="desktop-hide"]) {
+                margin-left: 101.04166667%
+            }
+
+            .gridlock .row .contained.desktop-1 {
+                width: 8.33333333%
+            }
+
+            .gridlock .row .contained.desktop-2 {
+                width: 16.66666667%
+            }
+
+            .gridlock .row .contained.desktop-3 {
+                width: 25%
+            }
+
+            .gridlock .row .contained.desktop-4 {
+                width: 33.33333333%
+            }
+
+            .gridlock .row .contained.desktop-5 {
+                width: 41.66666667%
+            }
+
+            .gridlock .row .contained.desktop-6 {
+                width: 50%
+            }
+
+            .gridlock .row .contained.desktop-7 {
+                width: 58.33333333%
+            }
+
+            .gridlock .row .contained.desktop-8 {
+                width: 66.66666667%
+            }
+
+            .gridlock .row .contained.desktop-9 {
+                width: 75%
+            }
+
+            .gridlock .row .contained.desktop-10 {
+                width: 83.33333333%
+            }
+
+            .gridlock .row .contained.desktop-11 {
+                width: 91.66666667%
+            }
+
+            .gridlock .row .contained.desktop-12 {
+                width: 100%
+            }
+
+            .gridlock .row .contained.desktop-push-1:not([class*="desktop-hide"]) {
+                margin-left: 8.33333333%
+            }
+
+            .gridlock .row .contained.desktop-push-2:not([class*="desktop-hide"]) {
+                margin-left: 16.66666667%
+            }
+
+            .gridlock .row .contained.desktop-push-3:not([class*="desktop-hide"]) {
+                margin-left: 25%
+            }
+
+            .gridlock .row .contained.desktop-push-4:not([class*="desktop-hide"]) {
+                margin-left: 33.33333333%
+            }
+
+            .gridlock .row .contained.desktop-push-5:not([class*="desktop-hide"]) {
+                margin-left: 41.66666667%
+            }
+
+            .gridlock .row .contained.desktop-push-6:not([class*="desktop-hide"]) {
+                margin-left: 50%
+            }
+
+            .gridlock .row .contained.desktop-push-7:not([class*="desktop-hide"]) {
+                margin-left: 58.33333333%
+            }
+
+            .gridlock .row .contained.desktop-push-8:not([class*="desktop-hide"]) {
+                margin-left: 66.66666667%
+            }
+
+            .gridlock .row .contained.desktop-push-9:not([class*="desktop-hide"]) {
+                margin-left: 75%
+            }
+
+            .gridlock .row .contained.desktop-push-10:not([class*="desktop-hide"]) {
+                margin-left: 83.33333333%
+            }
+
+            .gridlock .row .contained.desktop-push-11:not([class*="desktop-hide"]) {
+                margin-left: 91.66666667%
+            }
+
+            .gridlock .row .contained.desktop-push-12:not([class*="desktop-hide"]) {
+                margin-left: 100%
+            }
+
+            .gridlock .row [class*="desktop-"].centered:not([class*="desktop-hide"]) {
+                float: none;
+                clear: both;
+                margin-left: auto;
+                margin-right: auto
+            }
+
+            .gridlock .row .desktop-hide {
+                display: none
+            }
+
+            .gridlock .editor-grid .desktop-1 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-2 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-3 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-4 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-5 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-6 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-7 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-8 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-9 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-10 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-11 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .desktop-12 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid [class*="mobile-"]:not([class*="mobile-hide"]),
+            .gridlock .editor-grid [class*="tablet-"]:not([class*="tablet-hide"]) {
+                display: none
+            }
+        }
+
+        @media screen and (min-width: 1220px) {
+            .gridlock .row .max-1 {
+                width: 6.25%
+            }
+
+            .gridlock .row .max-2 {
+                width: 14.58333333%
+            }
+
+            .gridlock .row .max-3 {
+                width: 22.91666667%
+            }
+
+            .gridlock .row .max-4 {
+                width: 31.25%
+            }
+
+            .gridlock .row .max-5 {
+                width: 39.58333333%
+            }
+
+            .gridlock .row .max-6 {
+                width: 47.91666667%
+            }
+
+            .gridlock .row .max-7 {
+                width: 56.25%
+            }
+
+            .gridlock .row .max-8 {
+                width: 64.58333333%
+            }
+
+            .gridlock .row .max-9 {
+                width: 72.91666667%
+            }
+
+            .gridlock .row .max-10 {
+                width: 81.25%
+            }
+
+            .gridlock .row .max-11 {
+                width: 89.58333333%
+            }
+
+            .gridlock .row .max-12 {
+                width: 97.91666667%
+            }
+
+            .gridlock .row .max-push-1:not([class*="max-hide"]) {
+                margin-left: 9.375%
+            }
+
+            .gridlock .row .max-push-2:not([class*="max-hide"]) {
+                margin-left: 17.70833333%
+            }
+
+            .gridlock .row .max-push-3:not([class*="max-hide"]) {
+                margin-left: 26.04166667%
+            }
+
+            .gridlock .row .max-push-4:not([class*="max-hide"]) {
+                margin-left: 34.375%
+            }
+
+            .gridlock .row .max-push-5:not([class*="max-hide"]) {
+                margin-left: 42.70833333%
+            }
+
+            .gridlock .row .max-push-6:not([class*="max-hide"]) {
+                margin-left: 51.04166667%
+            }
+
+            .gridlock .row .max-push-7:not([class*="max-hide"]) {
+                margin-left: 59.375%
+            }
+
+            .gridlock .row .max-push-8:not([class*="max-hide"]) {
+                margin-left: 67.70833333%
+            }
+
+            .gridlock .row .max-push-9:not([class*="max-hide"]) {
+                margin-left: 76.04166667%
+            }
+
+            .gridlock .row .max-push-10:not([class*="max-hide"]) {
+                margin-left: 84.375%
+            }
+
+            .gridlock .row .max-push-11:not([class*="max-hide"]) {
+                margin-left: 92.70833333%
+            }
+
+            .gridlock .row .max-push-12:not([class*="max-hide"]) {
+                margin-left: 101.04166667%
+            }
+
+            .gridlock .row .contained.max-1 {
+                width: 8.33333333%
+            }
+
+            .gridlock .row .contained.max-2 {
+                width: 16.66666667%
+            }
+
+            .gridlock .row .contained.max-3 {
+                width: 25%
+            }
+
+            .gridlock .row .contained.max-4 {
+                width: 33.33333333%
+            }
+
+            .gridlock .row .contained.max-5 {
+                width: 41.66666667%
+            }
+
+            .gridlock .row .contained.max-6 {
+                width: 50%
+            }
+
+            .gridlock .row .contained.max-7 {
+                width: 58.33333333%
+            }
+
+            .gridlock .row .contained.max-8 {
+                width: 66.66666667%
+            }
+
+            .gridlock .row .contained.max-9 {
+                width: 75%
+            }
+
+            .gridlock .row .contained.max-10 {
+                width: 83.33333333%
+            }
+
+            .gridlock .row .contained.max-11 {
+                width: 91.66666667%
+            }
+
+            .gridlock .row .contained.max-12 {
+                width: 100%
+            }
+
+            .gridlock .row .contained.max-push-1:not([class*="max-hide"]) {
+                margin-left: 8.33333333%
+            }
+
+            .gridlock .row .contained.max-push-2:not([class*="max-hide"]) {
+                margin-left: 16.66666667%
+            }
+
+            .gridlock .row .contained.max-push-3:not([class*="max-hide"]) {
+                margin-left: 25%
+            }
+
+            .gridlock .row .contained.max-push-4:not([class*="max-hide"]) {
+                margin-left: 33.33333333%
+            }
+
+            .gridlock .row .contained.max-push-5:not([class*="max-hide"]) {
+                margin-left: 41.66666667%
+            }
+
+            .gridlock .row .contained.max-push-6:not([class*="max-hide"]) {
+                margin-left: 50%
+            }
+
+            .gridlock .row .contained.max-push-7:not([class*="max-hide"]) {
+                margin-left: 58.33333333%
+            }
+
+            .gridlock .row .contained.max-push-8:not([class*="max-hide"]) {
+                margin-left: 66.66666667%
+            }
+
+            .gridlock .row .contained.max-push-9:not([class*="max-hide"]) {
+                margin-left: 75%
+            }
+
+            .gridlock .row .contained.max-push-10:not([class*="max-hide"]) {
+                margin-left: 83.33333333%
+            }
+
+            .gridlock .row .contained.max-push-11:not([class*="max-hide"]) {
+                margin-left: 91.66666667%
+            }
+
+            .gridlock .row .contained.max-push-12:not([class*="max-hide"]) {
+                margin-left: 100%
+            }
+
+            .gridlock .row [class*="max-"].centered:not([class*="max-hide"]) {
+                float: none;
+                clear: both;
+                margin-left: auto;
+                margin-right: auto
+            }
+
+            .gridlock .row .max-hide {
+                display: none
+            }
+
+            .gridlock .editor-grid .max-1 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-2 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-3 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-4 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-5 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-6 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-7 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-8 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-9 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-10 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-11 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid .max-12 {
+                width: 6.25%
+            }
+
+            .gridlock .editor-grid [class*="mobile-"]:not([class*="mobile-hide"]),
+            .gridlock .editor-grid [class*="tablet-"]:not([class*="tablet-hide"]) {
+                display: none
+            }
+        }
+    </style>
+
+    <link href="./../styles-customizer/critical/single-menu-47881_sll_c_ch_ps_psl_cob_wb_la_sn_wl_au_lo_me_meh_ctp_se_mev_cu/default.css"
+
+          id="critical" onerror="$._css($(this).attr(), { timeout: 1000 })" rel="stylesheet">
+    <link href="./../styles-customizer/critical/single-menu-47881_sll_c_ch_ps_psl_cob_wb_la_sn_wl_au_lo_me_meh_ctp_se_mev_cu/style.css"
+          rel="stylesheet">
+</head>
+
+<body class="gridlock cells-12 language-rus current-menu-home" data-culture="ru-Ru" data-debug="false"
+      data-group="0" data-language-alias="rus" data-language-id="2" data-separator=",">
+
+<div id="panel" >
+    <div class="layout-body"> <span id="widget-header">
+                <section class="layout-section background-base" id="y5raq">
+                    <div class="row layout-row">
+                        <div class="layout-cell desktop-hide tablet-hide mobile-hide min-hide max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-2 desktop-3 tablet-2 mobile-1 min-3"
+                             id="n30at">
+                            <div class="layout-inner">
+                                <div class="layout-cell-plugin layout-cell-plugin" id="hsqic">
+                                    <div class="plugin-layout-inner">
+                                        <p>
+                                            <img alt=""
+                                                 data-src="./../Templates/Template_000011/Images/pic/wall-clock.svg"
+                                                 height="32" src="../Images/pic/wall-clock.svg"
+                                                 width="32">
+                                            ПН-ПТ &ndash; 10:00 - 18:00
+                                            <noscript>
+                                                <img alt=""
+                                                     src="./../Templates/Template_000011/Images/pic/wall-clock.svg"
+                                                     title="">
+                                            </noscript>
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="layout-cell tablet-hide mobile-hide min-hide max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-2 desktop-3 tablet-2 mobile-3 min-3 min-push-2"
+                             id="xjuo2">
+                            <div class="layout-inner">
+                                <div class="layout-cell-plugin layout-cell-plugin" id="lubjh">
+                                    <div class="plugin-layout-inner">
+                                        <p><a href="mailto:sezam95@ukr.net" style="position: static"><img alt=""
+                                                                                                          data-src="./../Templates/Template_000011/Images/pic/email.svg"
+                                                                                                          height="32"
+                                                                                                          src="../Images/pic/email.svg"
+                                                                                                          width="32">sezam95@ukr.net<noscript><img
+                                                alt="" src="./../Templates/Template_000011/Images/pic/email.svg"
+                                                title=""></noscript></a></p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="layout-cell mobile-hide min-hide max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-2 desktop-3 tablet-2 mobile-3 min-3"
+                             id="zht06">
+                            <div class="layout-inner">
+                                <div class="layout-cell-plugin layout-cell-plugin" id="zojod">
+                                    <div class="plugin-layout-inner">
+                                        <div class="plugin-default social-networks" style="text-align: center;">
+                                            <div class="plugin-default-social-networks with-style"
+                                                 style="margin-left: 3px; margin-right: 3px;">
+                                                <div class="social-networks"> <a href="https://instagram.com/"
+                                                                                 target="Blank" rel="nofollow"
+                                                                                 aria-label="Instagram">
+                                                        <span style="background: none; width: 26px; height: 26px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                            <img alt="Instagram" style="width: 100%; height: 100%;"
+                                                                 data-src="./../Templates/Template_000011/Images/pic/instagram.svg"
+                                                                 src="../Images/pic/instagram.svg"
+                                                                 width="32" height="32" class="async loader-async">
+                                                            <noscript><img
+                                                                    src="./../Templates/Template_000011/Images/pic/instagram.svg"
+                                                                    alt="Instagram" title="Instagram"></noscript></span>
+                                                    </a> </div>
+                                            </div>
+                                            <div class="plugin-default-social-networks with-style"
+                                                 style="margin-left: 3px; margin-right: 3px;">
+                                                <div class="social-networks"> <a href="https://facebook.com/"
+                                                                                 target="Blank" rel="nofollow"
+                                                                                 aria-label="Facebook">
+                                                        <span style="background-color: transparent; width: 26px; height: 26px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                            <img alt="Facebook" style="width: 100%; height: 100%;"
+                                                                 data-src="./../Templates/Template_000011/Images/pic/facebook.svg"
+                                                                 src="../Images/pic/facebook.svg"
+                                                                 width="32" height="32">
+                                                            <noscript><img
+                                                                    src="./../Templates/Template_000011/Images/pic/facebook.svg"
+                                                                    alt="Facebook" title="Facebook"></noscript></span>
+                                                    </a> </div>
+                                            </div>
+                                            <div class="plugin-default-social-networks with-style"
+                                                 style="margin-left: 3px; margin-right: 3px;">
+                                                <div class="social-networks"> <a href="https://t.me/+380677527969"
+                                                                                 target="Blank" rel="nofollow"
+                                                                                 aria-label="Telegram">
+                                                        <span style="background-color: transparent; width: 26px; height: 26px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                            <img alt="YouTube" style="width: 100%; height: 100%;"
+                                                                 data-src="./../Templates/Template_000011/Images/pic/youtube.svg"
+                                                                 src="../Images/pic/telegram.svg"
+                                                                 width="32" height="32">
+                                                            <noscript><img
+                                                                    src="./../Templates/Template_000011/Images/pic/telegram.svg"
+                                                                    alt="YouTube" title="YouTube"></noscript></span>
+                                                    </a> </div>
+                                            </div>
+                                            <div class="plugin-default-social-networks with-style"
+                                                 style="margin-left: 3px; margin-right: 3px;">
+                                                <div class="social-networks"> <a
+                                                        href="https://api.whatsapp.com/send?phone=380677527969"
+                                                        target="Blank" rel="nofollow"
+                                                        aria-label="WhatsApp">
+                                                        <span style="background-color: transparent; width: 26px; height: 26px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                            <img alt="WhatsApp" style="width: 100%; height: 100%;"
+                                                                 data-src="./../Templates/Template_000011/Images/pic/whatsapp.svg"
+                                                                 src="../Images/pic/whatsapp.svg"
+                                                                 width="32" height="32">
+                                                            <noscript><img
+                                                                    src="./../Templates/Template_000011/Images/pic/whatsapp.svg"
+                                                                    alt="WhatsApp" title="WhatsApp"></noscript></span>
+                                                    </a> </div>
+                                            </div>
+                                            <div class="plugin-default-social-networks with-style"
+                                                 style="margin-left: 3px; margin-right: 3px;">
+                                                <div class="social-networks">
+                                                    <a href="viber://chat?number=+380677527969"
+                                                       target="Blank" rel="nofollow"
+                                                       aria-label="Viber">
+                                                        <span style="background-color: transparent; width: 26px; height: 26px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                            <img alt="YouTube" style="width: 100%; height: 100%;"
+                                                                 data-src="./../Templates/Template_000011/Images/pic/viber.svg"
+                                                                 src="../Images/pic/viber.svg"
+                                                                 width="32" height="32">
+                                                            <noscript><img
+                                                                    src="./../Templates/Template_000011/Images/pic/viber.svg"
+                                                                    alt="viber" title="Viber"></noscript></span>
+                                                    </a> </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-2 desktop-2 tablet-2 mobile-2 min-2"
+                             id="bq188">
+                            <div class="layout-inner">
+                                <div class="layout-cell-plugin layout-cell-plugin" id="pxagg">
+                                    <div class="plugin-layout-inner">
+                                        <div class="plugin-authentication" id="authentication-pxagg">
+                                            <div class="sign-up-block authentication-block line "
+                                                 style="justify-content: flex-end; display: flex; align-items: center;"> <a
+                                                    href="#"
+                                                    style="color: #fff; font-size: 12px; display: flex; width: fit-content; align-items: center;">
+                                                    <img alt="Избранное"
+                                                         data-src="./../Templates/Template_000011/Images/pic/user.svg"
+                                                         height="32"
+                                                         src="../Images/pic/w-bar-call.svg"
+                                                         style="width: 18px; height: 18px; margin-right: 6px;"
+                                                         width="32">
+                                                    <div style="display: flex; flex-direction: column">
+                                                        <a href="tel:380677527969">+38(067)-752-79-69</a>
+                                                        <a href="tel:380953229283">+38(095)-322-92-83</a>
+                                                    </div>
+                                                    <noscript><img
+                                                            alt="Избранное"
+                                                            src="./../Templates/Template_000011/Images/pic/user.svg"
+                                                            title="Избранное"></noscript></a> </div>
+                                            <div class="hello-block authentication-block authentication-block line"
+                                                 style="justify-content: flex-end; display: flex; align-items: center; display: none;"> <a
+                                                    href="#"
+                                                    style="color: #fff; font-size: 13px; display: flex; width: fit-content; align-items: center;">
+                                                    <img alt="Избранное"
+                                                         class="async loader-async"
+                                                         data-src="./../Templates/Template_000011/Images/pic/sezam-logo.jpg"
+                                                         height="32"
+                                                         src="./../Templates/Template_000011/Images/pic/sezam-logo.jpg"
+                                                         style="width: 18px; height: 18px; margin-right: 6px;"
+                                                         width="32">
+
+                                                    Здравствуйте, <span>***</span>
+                                                    <noscript><img
+                                                            alt="Избранное"
+                                                            src="./../Templates/Template_000011/Images/pic/user.svg"
+                                                            title="Избранное"></noscript></a> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="layout-section StickyHeader" id="rzn1h">
+                    <div class="row layout-row " id="fwidth">
+                        <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-2 desktop-2 tablet-4 mobile-1 min-1"
+                             id="rpoub">
+                            <div class="layout-inner">
+                                <div class="layout-cell-plugin layout-cell-plugin" id="q1aqp">
+                                    <div class="plugin-layout-inner">
+                                        <div class="logo-plugin logo-default" id="logo-q1aqp">
+                                            <div class="logo-container" style="margin: auto auto auto 0;"> <span
+                                                    class="logo-image-main">
+                                                    <img alt="Інтернет-магазин" class="async"
+                                                         data-src="./../Templates/Template_000011/Images/pic/sezam-logo.jpg"
+                                                         height="42"
+                                                         src="../Images/pic/sezam-logo.jpg" title="Інтернет-магазин"
+                                                         width="122">
+                                                    <noscript><img
+                                                            alt="Інтернет-магазин"
+                                                            src="../Images/pic/logo-re.png"
+                                                            title="Інтернет-магазин"></noscript></span> </div>
+                                        </div>
+                                        <script>
+                                            function SetWidth_q1aqp(width) {
+                                                if (width) $("#logo-q1aqp .logo-container").css("width", width);
+                                                else $("#logo-q1aqp .logo-container").css("width", "100%");
+                                            }
+
+                                            function GetSettings_q1aqp() {
+                                                if (window.innerWidth >= 1220) SetWidth_q1aqp("130px")
+                                                else if (window.innerWidth >= 980 && window.innerWidth < 1220) SetWidth_q1aqp("130px")
+                                                else if (window.innerWidth >= 740 && window.innerWidth < 979) SetWidth_q1aqp("130px")
+                                                else if (window.innerWidth >= 500 && window.innerWidth < 739) SetWidth_q1aqp("120px")
+                                                else SetWidth_q1aqp("90px")
+                                            }
+
+                                            $(document).ready(function () {
+                                                GetSettings_q1aqp();
+                                            });
+
+                                            $(window).resize(() => {
+                                                GetSettings_q1aqp();
+                                            });
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="menu">
+            <ul>
+              <li><a href="#"><img alt="Металеві двері" src="./../Templates/Template_000011/Images/pic/metal-door.svg">Металеві двері</a></li>
+              <li><a href="#"><img alt="Металеві ворота"
+                                   src="./../Templates/Template_000011/Images/pic/metal-gate.svg">Металеві ворота з автоматикою і без</a></li>
+              <li><a href="#"><img alt="Грати на вікна" src="./../Templates/Template_000011/Images/pic/window-gate.svg">Грати на вікна</a></li>
+              <li><a href="#"><img alt="Захисні металеві жалюзі"
+                                   src="./../Templates/Template_000011/Images/pic/metal-shu.svg">Захисні металеві жалюзі</a></li>
+                <li><a href="#"><img alt="Козирки" src="./../Templates/Template_000011/Images/menuIcon/canopy.svg">Козирки (металеві ферми для даху)</a></li>
+                <li><a href="#"><img alt="Металеві огорожі"
+                                     src="./../Templates/Template_000011/Images/menuIcon/metal-fence.svg">Металеві огорожі</a></li>
+                <li><a href="#"><img alt="Ковані вироби"
+                                     src="./../Templates/Template_000011/Images/menuIcon/forded-product.svg">Ковані вироби</a></li>
+                <li><a href="#"><img alt="МДФ фасади для вхідних дверей"
+                                     src="./../Templates/Template_000011/Images/menuIcon/mdf-facades.svg">МДФ фасади для вхідних дверей</a></li>
+                <li><a href="#"><img alt="Міжкімнатні двері"
+                                     src="./../Templates/Template_000011/Images/menuIcon/interior-doors.svg">Міжкімнатні двері</a></li>
+                <li><a href="#"><img alt="Металопластикові вікна"
+                                     src="./../Templates/Template_000011/Images/menuIcon/interior-doors.svg">Металопластикові вікна</a></li>
+        </ul>
+
+  </div>
+                        <div class="layout-cell tablet-hide mobile-hide min-hide max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-8 desktop-8 tablet-2 mobile-1 min-3"
+                             id="cw8yf">
+                            <div class="layout-inner">
+                                <div class="layout-cell-plugin layout-cell-plugin" id="yh2gh">
+                                    <div class="plugin-layout-inner">
+                                        <div class="plugin-menu">
+                                            <nav class="menu-horizontal widgets-menu tablet-hide mobile-hide min-hide">
+                                                <ul style="text-align: center;">
+                                                    <li class="menu-item-home"
+                                                        class="current has-no-submenu has-no-widget">
+                                                            <a data-img-src="./../Templates/Template_000011/Images/default-image.jpg"
+                                                               href="../../index.html"
+                                                               style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;"
+                                                               target="_self">
+                                                                Главная
+                                                            </a>
+                                                    </li>
+                                                    <li class="common has-submenu has-no-widget"> <a
+                                                            data-img-src="./../Templates/Template_000011/Images/default-image.jpg"
+                                                            href="../../index.html"
+                                                            style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;"
+                                                            target="_self">
+                                                            Покупателям
+                                                        </a>
+                                                        <ul class="submenu">
+                                                            <li class="menu-item-pro-nas"
+                                                                class="common has-no-submenu has-no-widget submenu"> <a
+                                                                    data-img-src="./../Templates/Template_000011/Images/default-image.jpg"
+                                                                    href="metalevi-dveri.html" id=""
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;"
+                                                                    target="_self">
+                                                                    Металеві двері
+                                                                </a> </li>
+                                                            <li class="common has-no-submenu has-no-widget submenu"
+                                                                id="menu-item-dostavka-i-oplata"
+                                                                id="menu-item-dostavka-i-oplata"> <a
+                                                                    data-img-src="./../Templates/Template_000011/Images/default-image.jpg"
+                                                                    href="vorota.html"
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;"
+                                                                    target="_self">
+                                                                    Металеві ворота з автоматикою і без
+                                                                </a> </li>
+                                                            <li class="menu-item-pro-nas"
+                                                                class="common has-no-submenu has-no-widget submenu"> <a
+                                                                    data-img-src="./../Templates/Template_000011/Images/default-image.jpg"
+                                                                    href="gratu-okna.html"
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;"
+                                                                    target="_self">
+                                                                Грати на вікна
+                                                                </a> </li>
+                                                            <li class="menu-item-pro-nas"
+                                                                class="common has-no-submenu has-no-widget submenu"> <a
+                                                                    data-img-src="./../Templates/Template_000011/Images/default-image.jpg"
+                                                                    href="./blins.html"
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;"
+                                                                    target="_self">
+                                                                    Захисні металеві жалюзі
+                                                                </a> </li>
+                                                            <li class="menu-item-pro-nas"
+                                                                class="common has-no-submenu has-no-widget submenu"> <a
+                                                                    data-img-src="./../Templates/Template_000011/Images/default-image.jpg"
+                                                                    href="ferma.html"
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;"
+                                                                    target="_self">
+                                                                    Металеві ферми для даху
+                                                                </a> </li>
+
+                                                            <li class="menu-item-pro-nas"
+                                                                class="common has-no-submenu has-no-widget submenu"> <a
+                                                                    data-img-src="./../Templates/Template_000011/Images/default-image.jpg"
+                                                                    href="ogorozhi.html"
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;"
+                                                                    target="_self">
+                                                                    Металеві огорожі
+                                                                </a> </li>
+                                                            <li class="menu-item-pro-nas"
+                                                                class="common has-no-submenu has-no-widget submenu"> <a
+                                                                    data-img-src="./../Templates/Template_000011/Images/default-image.jpg"
+                                                                    href="kovani.html"
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;"
+                                                                    target="_self">
+                                                                    Ковані вироби
+                                                                </a> </li>
+                                                            <li class="menu-item-pro-nas"
+                                                                class="common has-no-submenu has-no-widget submenu"> <a
+                                                                    data-img-src="./../Templates/Template_000011/Images/default-image.jpg"
+                                                                    href="mdf.html"
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;"
+                                                                    target="_self">
+                                                                    МДФ фасади для дверей
+                                                                </a> </li>
+                                                            <li class="menu-item-pro-nas"
+                                                                class="common has-no-submenu has-no-widget submenu">
+                                                                <a
+                                                                        data-img-src="./../Templates/Template_000011/Images/default-image.jpg"
+                                                                        href="dveri-mizhkomnatni.html"
+                                                                        style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;"
+                                                                        target="_self">
+                                                                    Міжкімнатні двері
+                                                                </a>
+                                                            </li>
+                                                            <li class="common has-no-submenu has-no-widget submenu"
+                                                                id="menu-item-pro-nas"> <a
+                                                                    data-img-src="./../Templates/Template_000011/Images/default-image.jpg"
+                                                                    href="metal-okna.html"
+                                                                    style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;"
+                                                                    target="_self">
+                                                                    Металопластикові вікна
+                                                                </a>
+                                                            </li>
+
+                                                        </ul>
+                                                    </li>
+
+                                                    <li class="common has-no-widget">
+                                                        <a data-img-src="./../Templates/Template_000011/Images/default-image.jpg"
+                                                           href="./company.html"
+                                                           style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;"
+                                                           target="_self">
+                                                            Про компанію
+                                                        </a>
+                                                    </li>
+                                                    <li class="common has-no-submenu has-no-widget">
+                                                        <a
+                                                                data-img-src="./../Templates/Template_000011/Images/default-image.jpg"
+                                                                href="./contacts.html"
+                                                                style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;"
+                                                                target="_self">
+                                                            Контакты
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </span>
+
+    </div>
+
+    <section class="contact">
+        <div class="container">
+            <div class="contact__page">
+                <div class="contacts"
+                     style="
+                      justify-content: center;
+                        flex-direction: column;
+                        gap: 20px;
+                        border: 5px solid white;
+                        display: grid;
+                        border-radius: 10px;
+                        padding: 48px;
+                        margin-right: 10px;
+
+
+">
+                    <a class="tel" href="tel:+380677537969" style="color: #FFFFFF">+38 (067) 752 79 69</a>
+                    <a class="tel" href="tel:+380953229283" style="color: #FFFFFF">+38 (095)-322-92-83</a>
+                </div>
+                <div class="box_address_email"
+                     style="
+                    border: 5px solid white;
+                        display: grid;
+                        border-radius: 10px;
+                        padding: 50px 30px 13px 30px;
+                        margin-right: 10px;
+                        margin-bottom: 40px;
+
+">
+                    <address class="address" style="color: #FFFFFF">Пушкінська 56</address>
+
+                    <div class="layout-cell tablet-hide mobile-hide min-hide max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-2 desktop-3 tablet-2 mobile-3 min-3 min-push-2">
+                        <div class="layout-inner" style="padding-top: 13px">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="lubjh">
+                                <div class="plugin-layout-inner">
+                                    <p style="padding: 0;margin: 0">
+                                        <a href="mailto:sezam95@ukr.net"
+                                           style="position: static;position: static;display: flex;align-items: center;gap: 10px; color: #FFFFFF"><img
+                                                alt=""
+                                                data-src="Templates/Template_000011/Images/pic/email.svg"
+                                                height="32"
+                                                src="./../../assets/Images/pic/email.svg" width="32">sezam95@ukr.net
+                                            <noscript><img
+                                                    alt="123" src="./../../assets/Images/pic/email.svg"
+                                                    title=""></noscript>
+                                        </a></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="plugin-default social-networks" style="text-align: center;">
+                <div class="plugin-default-social-networks with-style" style="margin-left: 3px; margin-right: 3px;">
+                    <div class="social-networks">
+                        <a aria-label="Facebook" href="https://www.facebook.com/" rel="nofollow" target="Blank">
+                                                    <span style="background-color: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <svg class=""
+                                                             height="100%"
+                                                             version="1.1" viewBox="0 0 24 24"
+                                                             width="100%" x="0" xml:space="preserve"
+                                                             xmlns="http://www.w3.org/2000/svg"
+                                                             xmlns:svgjs="http://svgjs.com/svgjs"
+                                                             xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                                             xsi:schemalocation="http://svgjs.com/svgjs "
+                                                             y="0">
+                                                            <g>
+                                                                <path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"
+                                                                      data-original="#000000"
+                                                                      fill="#fff"
+                                                                      xmlns="http://www.w3.org/2000/svg"></path>
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                        </a></div>
+                </div>
+                <div class="plugin-default-social-networks with-style" style="margin-left: 3px; margin-right: 3px;">
+                    <div class="social-networks"><a aria-label="Instagram" href="https://www.instagram.com/"
+                                                    rel="nofollow"
+                                                    target="Blank">
+                                                    <span style="background: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <svg viewBox="0 0 511 511.9" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5C407.851562 7.199219 389.25 2.800781 362.050781 1.601562 334.648438.300781 325.949219 0 256.449219 0s-78.199219.300781-105.5 1.5C123.75 2.699219 105.050781 7.101562 88.851562 13.398438 71.648438 19.898438 56.25 29.898438 43.449219 43c-13 12.800781-23.097657 28.300781-29.5 45.300781C7.648438 104.601562 3.25 123.199219 2.050781 150.398438.75 177.800781.449219 186.5.449219 256s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438C56.25 482 71.75 492.101562 88.75 498.5c16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5C389.050781 509.199219 407.75 504.800781 423.949219 498.5c34.402343-13.300781 61.601562-40.5 74.902343-74.898438C505.148438 407.300781 509.550781 388.699219 510.75 361.5c1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876C94.550781 451.5 84.449219 445 76.25 436.5c-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5C61.25 94.199219 67.75 84.101562 76.351562 75.898438c8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0"
+                                                                  fill="#fff"></path>
+                                                            <path d="M256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781C303.550781 170.699219 341.75 208.898438 341.75 256s-38.199219 85.300781-85.300781 85.300781zM423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0"
+                                                                  fill="#fff"></path>
+                                                        </svg>
+                                                    </span>
+
+                    </a></div>
+                </div>
+                <div class="plugin-default-social-networks with-style" style="margin-left: 3px; margin-right: 3px;">
+                    <div class="social-networks"><a aria-label="Viber" href="viber://chat?number=%2B380999999999"
+                                                    rel="nofollow" target="Blank">
+                                                    <span style="background-color: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <svg viewBox="0 0 152 152" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M89 11H63c-25.2 0-45.5 20.3-45.5 45.5V76c0 17.6 10.1 33.6 26 41.1v21.8c0 1.1 1 2.1 2.3 2.1.5 0 1.1-.2 1.5-.6l18.8-18.9H89c25.2 0 45.5-20.3 45.5-45.5V56.5C134.5 31.3 114.2 11 89 11zm17.1 85.3-6.5 6.5c-7 6.8-25-1-40.9-17.2s-23-34.5-16.3-41.3l6.5-6.5c2.6-2.4 6.7-2.3 9.3.2l9.4 9.8c2.4 2.6 2.4 6.5-.2 9.1-.7.7-1.5 1.1-2.4 1.5-3.3 1-5 4.2-4.2 7.5 1.6 7.2 10.7 16.2 17.6 18 3.2.8 6.5-1 7.6-4.1 1.1-3.2 4.7-5 8.1-3.9 1 .3 1.8 1 2.6 1.6l9.4 9.8c2.4 2.4 2.4 6.4 0 9zM81.8 41.9c-.7 0-1.3 0-1.9.2-1.1.2-2.3-.7-2.4-2s.7-2.3 1.9-2.4c.8-.2 1.6-.2 2.4-.2 12 0 21.6 9.8 21.8 21.6 0 .8 0 1.6-.2 2.4-.2 1.1-1.1 2.1-2.4 1.9s-2.1-1.1-1.9-2.4c0-.7.2-1.3.2-1.9-.1-9.4-7.9-17.2-17.5-17.2zm13 17.4c-.2 1.1-1.1 2.1-2.4 1.9-1-.2-1.9-1-1.9-1.9 0-4.7-3.9-8.6-8.6-8.6-1.1.2-2.3-.8-2.4-2-.2-1.1.8-2.3 1.9-2.4h.3c7.5 0 13.1 5.8 13.1 13zm16.6 6.9c-.2 1.1-1.3 1.9-2.4 1.8s-1.9-1.3-1.8-2.4v-.3c.5-1.9.7-3.9.7-6 0-14.3-11.7-26-26-26H80c-1.1.2-2.3-.8-2.3-2-.2-1.1.8-2.3 1.9-2.3.8 0 1.6-.2 2.3-.2 16.7 0 30.4 13.6 30.4 30.4-.1 2.3-.4 4.8-.9 7z"
+                                                                  fill="#fff"></path>
+                                                        </svg>
+                                                    </span>
+
+                    </a></div>
+                </div>
+                <div class="plugin-default-social-networks with-style" style="margin-left: 3px; margin-right: 3px;">
+                    <div class="social-networks"><a aria-label="Telegram" href="tg://resolve?domain=username/"
+                                                    rel="nofollow" target="Blank">
+                                                    <span style="background-color: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="m9.417 15.181-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931L23.93 3.821l.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431 1.374-.247 1.741l5.443 1.693L18.953 5.78c.595-.394 1.136-.176.691.218z"
+                                                                  fill="#fff"></path>
+                                                        </svg>
+                                                    </span>
+
+                    </a></div>
+                </div>
+                <div class="plugin-default-social-networks with-style" style="margin-left: 3px; margin-right: 3px;">
+                    <div class="social-networks"><a aria-label="WhatsApp"
+                                                    href="https://api.whatsapp.com/send?phone=+380999999999"
+                                                    rel="nofollow" target="Blank">
+                                                    <span style="background: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <svg style="enable-background:new 0 0 512 512"
+                                                             viewBox="0 0 512 512"
+                                                             xml:space="preserve"
+                                                             xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M256.064 0h-.128C114.784 0 0 114.816 0 256c0 56 18.048 107.904 48.736 150.048l-31.904 95.104 98.4-31.456C155.712 496.512 204 512 256.064 512 397.216 512 512 397.152 512 256S397.216 0 256.064 0zm148.96 361.504c-6.176 17.44-30.688 31.904-50.24 36.128-13.376 2.848-30.848 5.12-89.664-19.264-75.232-31.168-123.68-107.616-127.456-112.576-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624 26.176-62.304c6.176-6.304 16.384-9.184 26.176-9.184 3.168 0 6.016.16 8.576.288 7.52.32 11.296.768 16.256 12.64 6.176 14.88 21.216 51.616 23.008 55.392 1.824 3.776 3.648 8.896 1.088 13.856-2.4 5.12-4.512 7.392-8.288 11.744-3.776 4.352-7.36 7.68-11.136 12.352-3.456 4.064-7.36 8.416-3.008 15.936 4.352 7.36 19.392 31.904 41.536 51.616 28.576 25.44 51.744 33.568 60.032 37.024 6.176 2.56 13.536 1.952 18.048-2.848 5.728-6.176 12.8-16.416 20-26.496 5.12-7.232 11.584-8.128 18.368-5.568 6.912 2.4 43.488 20.48 51.008 24.224 7.52 3.776 12.48 5.568 14.304 8.736 1.792 3.168 1.792 18.048-4.384 35.52z"
+                                                                  fill="#fff"></path>
+                                                        </svg>
+                                                    </span>
+
+                    </a></div>
+                </div>
+
+            </div>
+        </div>
+</div>
+</section>
+
+<span id="widget-footer">
+            <section class="layout-section" id="xdwax">
+                <div class="row layout-row">
+                    <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-4 desktop-4 tablet-2 mobile-3 min-3"
+                         id="gjm9e">
+                        <div class="layout-inner">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="soulm">
+                                <div class="plugin-layout-inner">
+
+
+
+                                    <div class="logo-plugin logo-default" id="logo-soulm">
+                                        <div class="logo-container" style="margin: auto auto auto 0;">
+                                            <span class="logo-image-main">
+                                                <img alt="Інтернет-магазин" class="async"
+                                                     data-src="Media/demox-000-10/logo/CarGoods_logo.svg"
+                                                     height="52"
+                                                     src="../Images/pic/sezam-logo.jpg"
+                                                     title="Інтернет-магазин" width="72">
+                                                <noscript><img alt="Інтернет-магазин"
+                                                               src="Media/demox-000-10/logo/CarGoods_logo.svg"
+                                                               title="Інтернет-магазин"></noscript></span> </div>
+                                    </div>
+                                    <script>
+                                        function SetWidth_soulm(width) {
+                                            if (width) $("#logo-soulm .logo-container").css("width", width);
+                                            else $("#logo-soulm .logo-container").css("width", "100%");
+                                        }
+
+                                        function GetSettings_soulm() {
+                                            if (window.innerWidth >= 1220) SetWidth_soulm("150px")
+                                            else if (window.innerWidth >= 980 && window.innerWidth < 1220) SetWidth_soulm("150px")
+                                            else if (window.innerWidth >= 740 && window.innerWidth < 979) SetWidth_soulm("130px")
+                                            else if (window.innerWidth >= 500 && window.innerWidth < 739) SetWidth_soulm("150px")
+                                            else SetWidth_soulm("130px")
+                                        }
+
+                                        $(document).ready(function () {
+                                            GetSettings_soulm();
+                                        });
+
+                                        $(window).resize(() => {
+                                            GetSettings_soulm();
+                                        });
+                                    </script>
+                                </div>
+                            </div>
+                            <div class="layout-cell-plugin layout-cell-plugin" id="ms8mn">
+                                <div class="plugin-layout-inner">
+                                    <p class="location">м. Харків, вул. Пушкінська 56</p>
+                                    <p class="phone" style="flex-direction: column; display: flex">
+                                        <a style="position: static" href="tel:+380677527969">+38 (067) 752 79 69</a>
+                                    <a href="tel:+380953229283" style="position: static">+38 (095)-322-92-83</a></p>
+                                    <p class="email"><a style="position: static" href="mailto:sezam95@ukr.net">sezam95@ukr.net</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layout-cell tablet-hide max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-2 desktop-2 tablet-2 mobile-3 min-3 tablet-push-2"
+                         id="n61bj">
+                        <div class="layout-inner">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="g8xdt">
+                                <div class="plugin-layout-inner">
+                                    <h5>Меню</h5>
+                                </div>
+                            </div>
+                            <div class="layout-cell-plugin layout-cell-plugin" id="xpke1">
+                                <div class="plugin-layout-inner">
+                                    <div class="plugin-menu align-left fontsize-16 rowspacing-0 itemsspacing-0 color-#363636">
+                                        <nav class="menu-vertical">
+                                            <ul style="text-align: left;">
+                                                <li class="current has-no-submenu has-no-widget" id="menu-item-home"> <a
+                                                        href="rus/"
+                                                        style="color: #363636; font-size: 16px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 0px;"
+                                                        target="_self">
+                                                        Главная
+                                                    </a> </li>
+                                                <li class="menu-item-for-customers"
+                                                    class="common has-no-submenu has-no-widget"> <a
+                                                        href="rus/for-customers/"
+                                                        style="color: #363636; font-size: 16px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 0px;"
+                                                        target="_self">
+                                                        Категории
+                                                    </a> </li>
+
+                                                <li class="menu-item-for-customers"
+                                                    class="common has-no-submenu has-no-widget"> <a
+                                                        href="rus/for-customers/"
+                                                        style="color: #363636; font-size: 16px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 0px;"
+                                                        target="_self">
+                                                        Покупателям
+                                                    </a> </li>
+                                                <li class="common has-no-submenu has-no-widget" id="menu-item-contacts"> <a
+                                                        href="contacts.html"
+                                                        style="color: #363636; font-size: 16px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 0px;"
+                                                        target="_self">
+                                                        Контакты
+                                                    </a> </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-3 desktop-3 tablet-2 mobile-3 min-3"
+                         id="j1gqj">
+                        <div class="layout-inner">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="vy6im">
+                                <div class="plugin-layout-inner">
+                                    <p><strong>Мы в социальных сетях</strong></p>
+                                </div>
+                            </div>
+                            <div class="layout-cell-plugin layout-cell-plugin" id="cb8uq">
+                                <div class="plugin-layout-inner">
+                                    <div class="plugin-default social-networks" style="text-align: left;">
+                                        <div class="plugin-default-social-networks with-style"
+                                             style="margin-left: 3px; margin-right: 3px;">
+                                            <div class="social-networks">
+                                                <a aria-label="Facebook"
+                                                   href="https://www.facebook.com/" rel="nofollow"
+                                                   target="Blank">
+                                                    <span style="background-color: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <svg class=""
+                                                             height="100%"
+                                                             version="1.1" viewbox="0 0 24 24"
+                                                             width="100%" x="0" xml:space="preserve"
+                                                             xmlns="http://www.w3.org/2000/svg"
+                                                             xmlns:svgjs="http://svgjs.com/svgjs"
+                                                             xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                                             xsi:schemaLocation="http://svgjs.com/svgjs "
+                                                             y="0">
+                                                            <g>
+                                                                <path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"
+                                                                      data-original="#000000"
+                                                                      fill="#363636"
+                                                                      xmlns="http://www.w3.org/2000/svg"></path>
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+
+                                                </a> </div>
+                                        </div>
+                                        <div class="plugin-default-social-networks with-style"
+                                             style="margin-left: 3px; margin-right: 3px;">
+                                            <div class="social-networks"> <a aria-label="Instagram"
+                                                                             href="https://www.instagram.com/"
+                                                                             rel="nofollow"
+                                                                             target="Blank">
+                                                    <span style="background: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <svg viewbox="0 0 511 511.9" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5C407.851562 7.199219 389.25 2.800781 362.050781 1.601562 334.648438.300781 325.949219 0 256.449219 0s-78.199219.300781-105.5 1.5C123.75 2.699219 105.050781 7.101562 88.851562 13.398438 71.648438 19.898438 56.25 29.898438 43.449219 43c-13 12.800781-23.097657 28.300781-29.5 45.300781C7.648438 104.601562 3.25 123.199219 2.050781 150.398438.75 177.800781.449219 186.5.449219 256s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438C56.25 482 71.75 492.101562 88.75 498.5c16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5C389.050781 509.199219 407.75 504.800781 423.949219 498.5c34.402343-13.300781 61.601562-40.5 74.902343-74.898438C505.148438 407.300781 509.550781 388.699219 510.75 361.5c1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876C94.550781 451.5 84.449219 445 76.25 436.5c-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5C61.25 94.199219 67.75 84.101562 76.351562 75.898438c8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0"
+                                                                  fill="#363636"></path>
+                                                            <path d="M256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781C303.550781 170.699219 341.75 208.898438 341.75 256s-38.199219 85.300781-85.300781 85.300781zM423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0"
+                                                                  fill="#363636"></path>
+                                                        </svg>
+                                                    </span>
+
+                                                </a> </div>
+                                        </div>
+                                        <div class="plugin-default-social-networks with-style"
+                                             style="margin-left: 3px; margin-right: 3px;">
+                                            <div class="social-networks"> <a aria-label="Viber"
+                                                                             href="viber://chat?number=%2B380999999999"
+                                                                             rel="nofollow"
+                                                                             target="Blank">
+                                                    <span style="background-color: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <svg viewbox="0 0 152 152" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M89 11H63c-25.2 0-45.5 20.3-45.5 45.5V76c0 17.6 10.1 33.6 26 41.1v21.8c0 1.1 1 2.1 2.3 2.1.5 0 1.1-.2 1.5-.6l18.8-18.9H89c25.2 0 45.5-20.3 45.5-45.5V56.5C134.5 31.3 114.2 11 89 11zm17.1 85.3-6.5 6.5c-7 6.8-25-1-40.9-17.2s-23-34.5-16.3-41.3l6.5-6.5c2.6-2.4 6.7-2.3 9.3.2l9.4 9.8c2.4 2.6 2.4 6.5-.2 9.1-.7.7-1.5 1.1-2.4 1.5-3.3 1-5 4.2-4.2 7.5 1.6 7.2 10.7 16.2 17.6 18 3.2.8 6.5-1 7.6-4.1 1.1-3.2 4.7-5 8.1-3.9 1 .3 1.8 1 2.6 1.6l9.4 9.8c2.4 2.4 2.4 6.4 0 9zM81.8 41.9c-.7 0-1.3 0-1.9.2-1.1.2-2.3-.7-2.4-2s.7-2.3 1.9-2.4c.8-.2 1.6-.2 2.4-.2 12 0 21.6 9.8 21.8 21.6 0 .8 0 1.6-.2 2.4-.2 1.1-1.1 2.1-2.4 1.9s-2.1-1.1-1.9-2.4c0-.7.2-1.3.2-1.9-.1-9.4-7.9-17.2-17.5-17.2zm13 17.4c-.2 1.1-1.1 2.1-2.4 1.9-1-.2-1.9-1-1.9-1.9 0-4.7-3.9-8.6-8.6-8.6-1.1.2-2.3-.8-2.4-2-.2-1.1.8-2.3 1.9-2.4h.3c7.5 0 13.1 5.8 13.1 13zm16.6 6.9c-.2 1.1-1.3 1.9-2.4 1.8s-1.9-1.3-1.8-2.4v-.3c.5-1.9.7-3.9.7-6 0-14.3-11.7-26-26-26H80c-1.1.2-2.3-.8-2.3-2-.2-1.1.8-2.3 1.9-2.3.8 0 1.6-.2 2.3-.2 16.7 0 30.4 13.6 30.4 30.4-.1 2.3-.4 4.8-.9 7z"
+                                                                  fill="#363636"></path>
+                                                        </svg>
+                                                    </span>
+
+                                                </a> </div>
+                                        </div>
+                                        <div class="plugin-default-social-networks with-style"
+                                             style="margin-left: 3px; margin-right: 3px;">
+                                            <div class="social-networks"> <a aria-label="Telegram"
+                                                                             href="tg://resolve?domain=username/"
+                                                                             rel="nofollow"
+                                                                             target="Blank">
+                                                    <span style="background-color: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="m9.417 15.181-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931L23.93 3.821l.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431 1.374-.247 1.741l5.443 1.693L18.953 5.78c.595-.394 1.136-.176.691.218z"
+                                                                  fill="#363636"></path>
+                                                        </svg>
+                                                    </span>
+
+                                                </a> </div>
+                                        </div>
+                                        <div class="plugin-default-social-networks with-style"
+                                             style="margin-left: 3px; margin-right: 3px;">
+                                            <div class="social-networks"> <a
+                                                    aria-label="WhatsApp"
+                                                    href="https://api.whatsapp.com/send?phone=+380999999999"
+                                                    rel="nofollow" target="Blank">
+                                                    <span style="background: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <svg style="enable-background:new 0 0 512 512"
+                                                             viewbox="0 0 512 512"
+                                                             xml:space="preserve"
+                                                             xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M256.064 0h-.128C114.784 0 0 114.816 0 256c0 56 18.048 107.904 48.736 150.048l-31.904 95.104 98.4-31.456C155.712 496.512 204 512 256.064 512 397.216 512 512 397.152 512 256S397.216 0 256.064 0zm148.96 361.504c-6.176 17.44-30.688 31.904-50.24 36.128-13.376 2.848-30.848 5.12-89.664-19.264-75.232-31.168-123.68-107.616-127.456-112.576-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624 26.176-62.304c6.176-6.304 16.384-9.184 26.176-9.184 3.168 0 6.016.16 8.576.288 7.52.32 11.296.768 16.256 12.64 6.176 14.88 21.216 51.616 23.008 55.392 1.824 3.776 3.648 8.896 1.088 13.856-2.4 5.12-4.512 7.392-8.288 11.744-3.776 4.352-7.36 7.68-11.136 12.352-3.456 4.064-7.36 8.416-3.008 15.936 4.352 7.36 19.392 31.904 41.536 51.616 28.576 25.44 51.744 33.568 60.032 37.024 6.176 2.56 13.536 1.952 18.048-2.848 5.728-6.176 12.8-16.416 20-26.496 5.12-7.232 11.584-8.128 18.368-5.568 6.912 2.4 43.488 20.48 51.008 24.224 7.52 3.776 12.48 5.568 14.304 8.736 1.792 3.168 1.792 18.048-4.384 35.52z"
+                                                                  fill="#363636"></path>
+                                                        </svg>
+                                                    </span>
+
+                                                </a> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="layout-section" id="l7wbg">
+                <div class="row layout-row">
+                    <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-4 desktop-4 tablet-3 mobile-3 min-3"
+                         id="um23h" style="width: 100%">
+                        <div class="layout-inner">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="bqfj3">
+                                <div class="plugin-layout-inner">
+                                    <p style="text-align: center;">Sezam &copy; <span class="date">-</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-4 desktop-4 tablet-3 mobile-3 min-3"
+                         id="s8p80">
+                        <div class="layout-inner">
+                            <div class="layout-cell-plugin layout-cell-plugin" id="nlxs7">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </span>
+</div>
+<div class="sidebar-popup shopping-cart hidden" data-express-checkout-url="rus/sidebar/sidebarexpresscheckout"
+     data-url="rus/sidebar/shoppingcart">
+    <div class="loader">
+        <div class="loader-inner">Loading...</div>
+    </div>
+    <div class="message">
+        <div class="subtitle"></div>
+        <div class="message-data"></div>
+        <div class="message-button">
+            <button class="btn btn-default close-message" type="button">
+                Закрыть
+            </button>
+        </div>
+    </div>
+    <div><a class="close-dark" href="#" title="Закрыть">
+        <img alt="Закрыть" class="async loader-async" data-src="./../Templates/Template_000011/Images/close.svg"
+             height="20"
+             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+             title="Закрыть"
+             width="20">
+        <noscript><img alt="Закрыть" src="./../Templates/Template_000011/Images/close.svg" title="Закрыть"></noscript>
+    </a></div>
+    <div class="content"></div>
+</div>
+
+
+<script id="price-regular-template" type="text/html">
+    <div class="product-price-regular"><span class="regular-price" data-content="Price"></span></div>
+</script>
+<script id="price-action-template" type="text/html">
+    <div class="product-price-action"><span class="regular-price" data-content="Price"></span> <span
+            class="action-price" data-content="ActionPrice"></span></div>
+</script>
+
+
+<div id="container" style="display: none">
+    <div id="sticky"><a class="ui-notify-close ui-notify-cross close" href="#"></a>
+        <div>#{title}</div>
+        <p>#{text}</p>
+    </div>
+</div>
+<nav class="default-menu-mobile" id="menu">
+    <ul>
+        <ul>
+            <li class="menu-title"><strong>
+                Меню
+            </strong></li>
+            <li class="menu-item-home" class="current has-no-submenu has-no-widget"><a href="rus/" target="_self">
+                Главная
+            </a></li>
+            <li class="common has-no-submenu has-no-widget" id="menu-item-for-customers"><a href="rus/for-customers/"
+                                                                                            style="color: #363636; font-size: 16px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 0px;"
+                                                                                            target="_self">
+                Категории
+            </a></li>
+
+            <li class="menu-item-for-customers" class="common has-submenu has-no-widget"><a href="../../index.html"
+                                                                                            target="_self">
+                Покупателям
+            </a>
+                <ul class="submenu">
+                    <li class="menu-item-pro-nas" class="common has-no-submenu has-no-widget submenu"><a
+                            href="pages/door.html" target="_self">
+                        О нас
+                    </a></li>
+                    <li class="menu-item-dostavka-i-oplata" class="common has-no-submenu has-no-widget submenu"><a
+                            href="rus/for-customers/dostavka-i-oplata/" target="_self">
+                        Доставка и оплата
+                    </a></li>
+                </ul>
+            </li>
+            <li class="menu-item-contacts" class="common has-no-submenu has-no-widget"><a href="contacts.html"
+                                                                                          target="_self">
+                Контакты
+            </a></li>
+        </ul>
+        <ul>
+            <li class="menu-title"><strong>
+                Магазин
+            </strong></li>
+            <li class="" id="avtoaksesuari"><a href="rus/shop/avtoaksesuari/" target="_self">Автоаксессуары</a></li>
+            <li class="" id="olivi-motorni"><a href="rus/shop/olivi-motorni/" target="_self">Масло моторное</a></li>
+            <li class="" id="avtoelektronika"><a href="rus/shop/avtoelektronika/" target="_self">Автоэлектроника</a>
+            </li>
+            <li class="" id="doglyad-za-avto"><a href="rus/shop/doglyad-za-avto/" target="_self">Уход за авто</a></li>
+            <li class="" id="avtozapchastini"><a href="rus/shop/avtozapchastini/" target="_self">Автозапчасти</a></li>
+            <li class="" id="ridini-omivacha-skla"><a href="rus/shop/ridini-omivacha-skla/" target="_self">Жидкости
+                омывателя стекла</a></li>
+        </ul>
+        <ul>
+            <li class="menu-title"><strong>
+                Язык
+            </strong></li>
+            <li class="mobile-language-ukr"><a href="">Ukr</a></li>
+            <li class="current mobile-language-rus"><a href="rus/">Rus</a></li>
+            <li class="mobile-language-eng"><a href="eng/">Eng</a></li>
+        </ul>
+        <ul>
+            <li class="menu-title"><strong>
+                Валюта
+            </strong></li>
+            <li class="currency currency-21228 code-uah default"><a data-currency="21228" href="#">
+                UAH </a></li>
+            <li class="currency currency-21229 code-usd"><a data-currency="21229" href="#">
+                USD </a></li>
+        </ul>
+    </ul>
+</nav>
+
+
+<!-- Подключение библиотек ScrollMagic и TweenMax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+<script>
+    // Создание нового контроллера ScrollMagic
+    var controller = new ScrollMagic.Controller();
+
+    // Создание сцены ScrollMagic
+    var scene = new ScrollMagic.Scene({
+        triggerElement: ".animated-text", // Элемент, при достижении которого начнется анимация
+        triggerHook: 0.8, // Момент старта анимации, относительно высоты экрана (80%)
+        reverse: false // Отключение обратного проигрывания анимации при скроллинге назад
+    })
+        .on("enter", function () {
+            // Анимация появления текста
+            TweenMax.to(".animated-text", 0.5, {opacity: 1, y: 0, ease: "easeOut"});
+        })
+        .on("leave", function () {
+            // Анимация исчезания текста
+            TweenMax.to(".animated-text", 0.5, {opacity: 0, y: -30, ease: "easeOut"});
+        })
+        .addTo(controller); // Добавление сцены в контроллер
+</script>
+
+<script>
+    AOS.init();
+</script>
+
+<script async src="//code.jivosite.com/widget/ojrFVsrVoA"></script>
+
+<script src="../scripts/index.js"></script>
+<script src="../scripts/blockUrl.js"></script>
+
+</body>
+
+</html>
