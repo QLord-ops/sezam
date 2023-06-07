@@ -275,6 +275,7 @@ body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
     border-radius: 20px;
     border: 1px solid #b91125;
     transition: background-color 0.3s,  border-radius 0.3s, box-shadow 0.3s;
+    background: #F5F5DCFF;
 }
 
 .faq-item:hover {
@@ -428,6 +429,37 @@ body.gridlock label {
 
 .layout-row {
     border-radius: 50px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fab {
+    transition: transform 0.3s ease-in-out;
+    zoom: 1.5;
+}
+
+.fab:hover {
+    transform: scale(1.2);
+    animation: pulseIcons 1s infinite alternate;
+    color: red;
+}
+
+
+@keyframes pulseIcons {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 @media (min-width: 980px) {
