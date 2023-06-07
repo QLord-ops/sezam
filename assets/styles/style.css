@@ -346,6 +346,7 @@ body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
     display: block;
 }
 
+
 .faq-text {
     display: none;
     padding: 10px 15px;
@@ -353,6 +354,8 @@ body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
     color: #fff;
     font-size: 14px;
 }
+
+
 
 body.gridlock label {
     font-size: 1rem!important;
@@ -430,6 +433,7 @@ body.gridlock label {
 .layout-row {
     border-radius: 50px;
 }
+
 
 .social-icons {
     display: flex;
@@ -516,9 +520,17 @@ body.gridlock label {
 }
 
 .modal-content form {
+=======
+.logo-image-main {
+    margin-left: 19px;
+}
+
+.faq-text-2 {
+
     display: flex;
     flex-direction: column;
 }
+
 
 .modal-content input,
 .modal-content button {
@@ -564,6 +576,8 @@ body.gridlock label {
 
 /*callback*/
 
+
+=======
 
 @media (min-width: 980px) {
     .burger-btn {
