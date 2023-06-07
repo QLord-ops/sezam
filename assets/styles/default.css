@@ -274,7 +274,7 @@ section.full-width div.row.layout-row {
 }
 
 .plugin-currencies.dropdown > div ul li a:hover {
-    background: #efefef
+    background: #efefef;
 }
 
 .plugin-currencies.dropdown > div ul:hover li {
@@ -4315,6 +4315,7 @@ body.gridlock span#widget-header > section:first-child .row {
     height: 100%;
     align-content: center;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 body.gridlock span#widget-header > section:first-child p {
@@ -4582,7 +4583,7 @@ body.gridlock span#widget-footer p, body.gridlock span#widget-footer a, body.gri
 }
 
 body.gridlock span#widget-footer h3 {
-    font-size: 18px
+    font-size: 18px;
 }
 
 body.gridlock span#widget-footer p strong {
@@ -4650,7 +4651,7 @@ body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell
     display: inline-block;
     vertical-align: middle;
     transition: 0.5s linear;
-    filter: invert(1)
+    filter: invert(1);
 }
 
 body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner p.phone a:before, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner p.email a:before {
