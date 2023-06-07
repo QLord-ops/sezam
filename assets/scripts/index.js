@@ -47,4 +47,32 @@ window.addEventListener('load', function() {
     setTimeout(function() {
         document.querySelector('body').classList.add('loaded');
     }, 3000);
+
 });
+
+// callback modal
+
+window.addEventListener('load', function() {
+    setTimeout(() => {
+        const modal = document.querySelector('#modal');
+        modal.classList.add('modal-show');
+    }, 20000);
+
+    const closeButton = document.querySelector('#close');
+    const modal = document.querySelector('#modal');
+
+    closeButton.addEventListener('click', (event) => {
+        event.preventDefault();
+        modal.classList.remove('modal-show');
+    });
+
+    window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.classList.remove('modal-show');
+        }
+    });
+});
+
+
+
+
