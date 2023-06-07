@@ -33,26 +33,21 @@ document.addEventListener('DOMContentLoaded', () => {
         animationText.textContent += text[index]
         index++
 
-        if (index < text.length) {
-            setTimeout(typeText, 30)
-        } else {
-            animationText.style.animation = 'pulseText 5s infinity'
-        }
+        index < text.length ? setTimeout(typeText, 30) : animationText.style.animation = 'pulseText 5s infinity'
     }
     typeText();
 })
 
 
-window.addEventListener('load', function() {
-    setTimeout(function() {
+window.addEventListener('load', () => {
+    setTimeout(() => {
         document.querySelector('body').classList.add('loaded');
-    }, 3000);
-
+    }, 100);
 });
 
 // callback modal
 
-window.addEventListener('load', function() {
+window.addEventListener('load', () => {
     setTimeout(() => {
         const modal = document.querySelector('#modal');
         modal.classList.add('modal-show');

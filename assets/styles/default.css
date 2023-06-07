@@ -212,7 +212,6 @@ section.full-width div.row.layout-row {
 }
 
 .plugin-currencies.dropdown > div {
-    width: 100%;
     width: max-content;
     position: relative
 }
@@ -250,7 +249,6 @@ section.full-width div.row.layout-row {
 .plugin-currencies.dropdown > div ul {
     left: 50%;
     padding: 0;
-    width: auto;
     z-index: 100;
     display: none;
     list-style: none;
@@ -283,7 +281,6 @@ section.full-width div.row.layout-row {
 }
 
 .plugin-languages.dropdown > div {
-    width: 100%;
     width: max-content;
     position: relative
 }
@@ -3956,7 +3953,7 @@ body.gridlock section.slide-menu div.row {
     padding: 15px 20px;
     background-color: #ffffff;
     border-top: 4px solid #DA2D2E !important;
-    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     max-height: 84px
 }
 
@@ -4018,7 +4015,7 @@ body.gridlock div.search-plugin div.plugin-layout-inner input {
     font-size: 20px !important;
     padding: 10px 20px !important;
     border: 2px solid #DA2D2E;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1)
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1)
 }
 
 body.gridlock div.search-plugin div.plugin-layout-inner input:focus {
@@ -4063,7 +4060,7 @@ body.gridlock div.search-plugin span.autocomplete div.autocomplete-menu {
     overflow-y: auto;
     border: 10px solid #ffffff;
     background-color: #ffffff;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25)
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25)
 }
 
 body.gridlock div.search-plugin span.autocomplete div.autocomplete-menu div.autocomplete-suggestion {
@@ -4195,12 +4192,12 @@ body.gridlock div.plugin-wishlist {
 
 body.gridlock div.plugin-wishlist a {
     transition: 0.25s all !important;
-    transition: 1s ease all !important
+    transition: 1s ease all !important;
 }
 
 body.gridlock div.plugin-wishlist a svg {
     transition: 0.25s all !important;
-    transition: 1s ease all !important
+    transition: 1s ease all !important;
 }
 
 body.gridlock div.plugin-wishlist a:hover {
@@ -4329,7 +4326,7 @@ body.gridlock span#widget-header > section:first-child a:hover {
 body.gridlock span#widget-header > section:first-child .layout-cell .plugin-layout-inner > p {
     display: flex;
     align-items: center;
-    font-size: 12px;
+    font-size: 11px;
     color: #ffffff
 }
 
@@ -4410,7 +4407,7 @@ body.gridlock span#widget-header > section:nth-child(2) .row .layout-cell .plugi
 body.gridlock span#widget-header > section div.row {
     display: flex;
     flex-wrap: wrap;
-    align-items: center
+    align-items: center;
 }
 
 body.gridlock span#widget-header > section div.row p#account {
@@ -4815,7 +4812,6 @@ body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin art
 body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin article img, body.gridlock section.slider div.plugin-layout-inner div.carousel article img, body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin div.item img, body.gridlock section.slider div.plugin-layout-inner div.carousel div.item img {
     width: 100%;
     object-fit: cover;
-    height: 550px
 }
 
 body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin article span.slider-label, body.gridlock section.slider div.plugin-layout-inner div.carousel article span.slider-label, body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin div.item span.slider-label, body.gridlock section.slider div.plugin-layout-inner div.carousel div.item span.slider-label {
@@ -4957,22 +4953,21 @@ body.gridlock article ul:not([class]) li:not([class]), body.gridlock article.lay
     padding-left: 33px
 }
 
-/*body.gridlock article ul:not([class]) li:not([class])::before, body.gridlock article.layout-container ul:not([class]) li:not([class])::before, body.gridlock div.row ul:not([class]) li:not([class])::before, body.gridlock div.plugin-layout-inner ul:not([class]) li:not([class])::before, body.gridlock article ol:not([class]) li:not([class])::before, body.gridlock article.layout-container ol:not([class]) li:not([class])::before, body.gridlock div.row ol:not([class]) li:not([class])::before, body.gridlock div.plugin-layout-inner ol:not([class]) li:not([class])::before {*/
-/*    content: "";*/
-/*    display: block;*/
-/*    width: 22px;*/
-/*    height: 22px;*/
-/*    background-size: 11px;*/
-/*    background-color: #DA2D2E;*/
-/*    background-image: url(/Media/demox-000-10/icons/check-white.svg);*/
-/*    background-repeat: no-repeat;*/
-/*    background-position: center center;*/
-/*    border-radius: 0px;*/
-/*    position: absolute;*/
-/*    left: 0;*/
-/*    top: 0px;*/
-/*    border: 1px solid #ffffff*/
-/*}*/
+body.gridlock article ul:not([class]) li:not([class])::before, body.gridlock article.layout-container ul:not([class]) li:not([class])::before, body.gridlock div.row ul:not([class]) li:not([class])::before, body.gridlock div.plugin-layout-inner ul:not([class]) li:not([class])::before, body.gridlock article ol:not([class]) li:not([class])::before, body.gridlock article.layout-container ol:not([class]) li:not([class])::before, body.gridlock div.row ol:not([class]) li:not([class])::before, body.gridlock div.plugin-layout-inner ol:not([class]) li:not([class])::before {
+    content: "";
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-size: 11px;
+    background-color: #DA2D2E;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 0px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    border: 1px solid #ffffff
+}
 
 body.gridlock h1 {
     margin: 30px 0;
@@ -5056,8 +5051,6 @@ body.gridlock p.button a:hover {
 body.gridlock a {
     font-size: 16px;
     text-decoration: none;
-    color: #DA2D2E;
-    transition: 0.25s all;
     transition: 1s ease all;
     word-break: break-word;
     word-wrap: break-word;
@@ -5070,7 +5063,7 @@ body.gridlock a:hover {
 
 body.gridlock button[type="submit"] {
     cursor: pointer;
-    border-radius: 0
+    margin-top: 20px;
 }
 
 body.gridlock span {
