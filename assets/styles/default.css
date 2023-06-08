@@ -4575,7 +4575,7 @@ body.gridlock span#widget-footer {
 }
 
 body.gridlock span#widget-footer p, body.gridlock span#widget-footer a, body.gridlock span#widget-footer h1, body.gridlock span#widget-footer h2, body.gridlock span#widget-footer h3, body.gridlock span#widget-footer h4, body.gridlock span#widget-footer h5, body.gridlock span#widget-footer div, body.gridlock span#widget-footer span {
-    color: #363636
+    color: #363636;
 }
 
 body.gridlock span#widget-footer h3 {
@@ -6251,4 +6251,73 @@ body.gridlock.current-menu-blog div.sticky {
         height: 0;
         width: 0;
     }
+
+    body.gridlock span#widget-footer p, body.gridlock span#widget-footer a, body.gridlock span#widget-footer h1, body.gridlock span#widget-footer h2, body.gridlock span#widget-footer h3, body.gridlock span#widget-footer h4, body.gridlock span#widget-footer h5, body.gridlock span#widget-footer div, body.gridlock span#widget-footer span {
+        font-size: 11px;
+    }
+
+
+    .location {
+        display: flex;
+        margin-right: 15px
+    }
+
+    #widget-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner p.phone a:before, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner p.email a:before {
+        width: 0;
+        margin-right: 3px;
+    }
+
+    .email {
+        margin-left: 14px!important;
+    }
+
+    .menu-one {
+        font-size: 11px!important;
+    }
+
+    .menu-two {
+        font-size: 11px!important;
+    }
+
+    .menu-three {
+        font-size: 11px!important;
+    }
+
+    .menu-four {
+        font-size: 11px!important;
+    }
+
+    #n61bj {
+        margin-top: 25px;
+    }
+
+    .facebook_one {
+        width: 23px!important;
+        height: 37px!important;
+    }
+
+    .inst_two {
+        width: 23px!important;
+    }
+
+    .viber_three {
+        width: 23px!important;
+    }
+
+    .telegram_four {
+        width: 23px!important;
+    }
+
+    .whatsapp_five {
+        width: 23px!important;
+    }
 }
+
+
+

@@ -668,6 +668,18 @@ body.gridlock label {
     }
 }
 
+@media (max-width: 768px) {
+   #f-plugin_2 {
+       padding-bottom: 83px;
+   }
+}
+
+@media screen and (min-width: 740px) and (max-width: 979px) {
+    .gridlock .row .tablet-push-2 {
+        margin-left: 11.375%!important;
+    }
+}
+
 
 
 
