@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22070fc8-ee54-4902-99fd-6eb09cd7de2b" name="Changes" comment="add background image house.jpg&#10;add aos library">
-      <change afterPath="$PROJECT_DIR$/assets/Images/pic/check-mark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Images/pic/rate.png" afterDir="false" />
+    <list default="true" id="22070fc8-ee54-4902-99fd-6eb09cd7de2b" name="Changes" comment="change text&#10;add image check-mark.png&#10;add animation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pages/blins.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pages/blins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pages/company.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pages/company.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pages/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pages/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pages/dveri-mizhkomnatni.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pages/dveri-mizhkomnatni.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pages/ferma.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pages/ferma.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pages/gratu-okna.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pages/gratu-okna.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pages/kovani.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pages/kovani.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pages/mdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pages/mdf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pages/metal-okna.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pages/metal-okna.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pages/metalevi-dveri.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pages/metalevi-dveri.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pages/ogorozhi.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pages/ogorozhi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pages/vorota.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pages/vorota.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +59,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "editing.templates",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -75,7 +86,8 @@
       <workItem from="1682545386435" duration="147132000" />
       <workItem from="1684249573357" duration="1229000" />
       <workItem from="1685972268694" duration="25445000" />
-      <workItem from="1686137134854" duration="27018000" />
+      <workItem from="1686137134854" duration="27564000" />
+      <workItem from="1686218650962" duration="5387000" />
     </task>
     <task id="LOCAL-00001" summary="change ukr">
       <created>1686138253988</created>
@@ -91,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686171371446</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change text&#10;add image check-mark.png&#10;add animation">
+      <created>1686175274291</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686175274291</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +120,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="change ukr" />
     <MESSAGE value="add background image house.jpg&#10;add aos library" />
-    <option name="LAST_COMMIT_MESSAGE" value="add background image house.jpg&#10;add aos library" />
+    <MESSAGE value="change text&#10;add image check-mark.png&#10;add animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="change text&#10;add image check-mark.png&#10;add animation" />
   </component>
 </project>

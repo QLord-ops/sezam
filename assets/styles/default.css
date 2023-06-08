@@ -6214,9 +6214,9 @@ body.gridlock.current-menu-blog div.sticky {
         margin-bottom: 15px !important
     }
 
-    body.gridlock span#widget-header section .row .plugin-layout-inner p {
-        justify-content: center
-    }
+    /*body.gridlock span#widget-header section .row .plugin-layout-inner p {*/
+    /*    justify-content: center*/
+    /*}*/
 
     body.gridlock span#widget-header section .row .plugin-layout-inner div.social-networks {
         text-align: center
@@ -6227,8 +6227,28 @@ body.gridlock.current-menu-blog div.sticky {
     }
 }
 
+@media (min-width: 1200px) {
+    body.gridlock span#widget-header > section:first-child .layout-cell .plugin-layout-inner a {
+        font-size: 11px !important;
+
+    }
+}
+
+@media (max-width: 992px) {
+    body.gridlock span#widget-header > section:first-child .layout-cell .plugin-layout-inner a {
+        font-size: 11px !important;
+    }
+}
+
 @media screen and (min-width: 1220px) {
     body.gridlock .max-hide {
         display: none !important
+    }
+}
+
+@media (max-width: 768px) {
+    .img_inst .img_facebook .img_telegram .img_viber .img_whatsapp {
+        height: 0;
+        width: 0;
     }
 }

@@ -565,6 +565,8 @@ body.gridlock label {
     display: flex;
 }
 
+
+
 @media screen and (max-width: 768px) {
     .modal-content {
         max-width: 90%;
@@ -665,5 +667,7 @@ body.gridlock label {
         display: none;
     }
 }
+
+
 
 
