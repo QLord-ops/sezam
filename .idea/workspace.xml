@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22070fc8-ee54-4902-99fd-6eb09cd7de2b" name="Changes" comment="q">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Images/pic/house.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Images/pic/house.jpeg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
       <workItem from="1686431119388" duration="1195000" />
       <workItem from="1686597227186" duration="3490000" />
       <workItem from="1686638930224" duration="5090000" />
-      <workItem from="1686692080074" duration="1450000" />
+      <workItem from="1686692080074" duration="2937000" />
     </task>
     <task id="LOCAL-00001" summary="change ukr">
       <created>1686138253988</created>
@@ -136,6 +137,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
