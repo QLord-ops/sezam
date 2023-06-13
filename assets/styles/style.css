@@ -65,6 +65,16 @@ body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
     position: relative;
 }
 
+@media (max-width: 576px) {
+    body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
+        padding: 65px 10px 35px!important;
+    }
+
+    #f-plugin_2 {
+        padding-bottom: 35px!important;
+    }
+
+
 .plugin-layout-inner > div > h4 {
     cursor: pointer;
 }
@@ -75,6 +85,39 @@ body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
 
 #f-plugin {
     padding-bottom: 35px;
+}
+
+body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner h2 {
+    font-size: 99px;
+}
+
+body.gridlock p {
+    font-size: 13px!important;
+}
+
+body.gridlock a {
+    font-size: 13px!important;
+}
+
+body.gridlock label  {
+    font-size: 13px;
+}
+
+.time-text {
+    width: 162px;
+}
+
+.email_text {
+    width: 143px;
+}
+
+.phone_text {
+    width: 130px;
+}
+
+    body.gridlock span#widget-header > section div.row {
+        flex-wrap: nowrap;
+    }
 }
 
 
@@ -357,9 +400,7 @@ body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
 
 
 
-body.gridlock label {
-    font-size: 1rem!important;
-}
+
 
 .contact__page {
     display: flex;

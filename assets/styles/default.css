@@ -7,9 +7,9 @@ body, html {
     padding: 0
 }
 
-body.gridlock {
-    font-size: 15px;
-}
+/*body.gridlock {*/
+/*    font-size: 15px;*/
+/*}*/
 
 .loader-async, .async-loader {
     background-position: center;
@@ -318,7 +318,6 @@ section.full-width div.row.layout-row {
 .plugin-languages.dropdown > div ul {
     left: 50%;
     padding: 0;
-    width: auto;
     z-index: 100;
     display: none;
     list-style: none;
@@ -4406,7 +4405,7 @@ body.gridlock span#widget-header > section:nth-child(2) .row .layout-cell .plugi
 
 body.gridlock span#widget-header > section div.row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
 }
 
@@ -4828,7 +4827,7 @@ body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin art
     justify-content: center;
     padding-left: 150px;
     padding-right: 150px;
-    flex-direction: column;
+    flex-direction: column!important;
     background-color: #36363630;
     transform: unset
 }
@@ -4952,21 +4951,7 @@ body.gridlock article ul:not([class]) li:not([class]), body.gridlock article.lay
     padding-left: 33px
 }
 
-body.gridlock article ul:not([class]) li:not([class])::before, body.gridlock article.layout-container ul:not([class]) li:not([class])::before, body.gridlock div.row ul:not([class]) li:not([class])::before, body.gridlock div.plugin-layout-inner ul:not([class]) li:not([class])::before, body.gridlock article ol:not([class]) li:not([class])::before, body.gridlock article.layout-container ol:not([class]) li:not([class])::before, body.gridlock div.row ol:not([class]) li:not([class])::before, body.gridlock div.plugin-layout-inner ol:not([class]) li:not([class])::before {
-    content: "";
-    display: block;
-    width: 22px;
-    height: 22px;
-    background-size: 11px;
-    background-color: #DA2D2E;
-    background-repeat: no-repeat;
-    background-position: center center;
-    border-radius: 0px;
-    position: absolute;
-    left: 0;
-    top: 0px;
-    border: 1px solid #ffffff
-}
+
 
 body.gridlock h1 {
     margin: 30px 0;
@@ -5320,7 +5305,7 @@ body.gridlock select::-ms-expand {
 
 body.gridlock label {
     display: block;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-bottom: 5px
 }
 
@@ -6168,9 +6153,7 @@ body.gridlock.current-menu-blog div.sticky {
         height: 400px
     }
 
-    body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin article img, body.gridlock section.slider div.plugin-layout-inner div.carousel article img, body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin div.item img, body.gridlock section.slider div.plugin-layout-inner div.carousel div.item img {
-        height: 400px
-    }
+
 
     body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin article span.slider-label, body.gridlock section.slider div.plugin-layout-inner div.carousel article span.slider-label, body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin div.item span.slider-label, body.gridlock section.slider div.plugin-layout-inner div.carousel div.item span.slider-label {
         padding-right: 50px;
@@ -6317,6 +6300,11 @@ body.gridlock.current-menu-blog div.sticky {
     .whatsapp_five {
         width: 23px!important;
     }
+
+    #j1gqj {
+        margin-top: 21px;
+    }
+
 }
 
 
