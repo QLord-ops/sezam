@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22070fc8-ee54-4902-99fd-6eb09cd7de2b" name="Changes" comment="change style burger menu" />
+    <list default="true" id="22070fc8-ee54-4902-99fd-6eb09cd7de2b" name="Changes" comment="q" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +74,7 @@
       <workItem from="1686313943303" duration="10728000" />
       <workItem from="1686431119388" duration="1195000" />
       <workItem from="1686597227186" duration="3490000" />
-      <workItem from="1686638930224" duration="3356000" />
+      <workItem from="1686638930224" duration="4158000" />
     </task>
     <task id="LOCAL-00001" summary="change ukr">
       <created>1686138253988</created>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686639153090</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="q">
+      <created>1686689991906</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686689991906</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +140,7 @@
     <MESSAGE value="fix media 1400px 1200px&#10;992px" />
     <MESSAGE value="fix header,card,footer" />
     <MESSAGE value="change style burger menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="change style burger menu" />
+    <MESSAGE value="q" />
+    <option name="LAST_COMMIT_MESSAGE" value="q" />
   </component>
 </project>
