@@ -21,22 +21,22 @@ hamburger.addEventListener('click', () => {
 });
 
 
-document.addEventListener('DOMContentLoaded', () => {
-    const animationText = document.querySelector('.animated-text');
-    const text = animationText.textContent.trim();
-    let index = 0;
-
-    animationText.textContent = '';
-
-
-    function typeText() {
-        animationText.textContent += text[index]
-        index++
-
-        index < text.length ? setTimeout(typeText, 30) : animationText.style.animation = 'pulseText 5s infinity'
-    }
-    typeText();
-})
+// document.addEventListener('DOMContentLoaded', () => {
+//     const animationText = document.querySelector('.animated-text');
+//     const text = animationText.textContent.trim();
+//     let index = 0;
+//
+//     animationText.textContent = '';
+//
+//
+//     function typeText() {
+//         animationText.textContent += text[index]
+//         index++
+//
+//         index < text.length ? setTimeout(typeText, 30) : animationText.style.animation = 'pulseText 5s infinity'
+//     }
+//     typeText();
+// })
 
 
 window.addEventListener('load', () => {

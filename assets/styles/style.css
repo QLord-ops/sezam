@@ -47,6 +47,7 @@ body.loaded {
 .slider-name {
     line-height: 30px;
     margin-top: 60px;
+    color: #ffffff;
 }
 
 body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner h2 {
