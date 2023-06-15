@@ -6242,7 +6242,8 @@ body.gridlock.current-menu-blog div.sticky {
 
     .location {
         display: flex;
-        margin-right: 15px
+        margin-right: 15px;
+        justify-content: center;
     }
 
     #widget-footer {
