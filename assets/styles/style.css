@@ -106,17 +106,17 @@ body.gridlock label  {
     font-size: 13px;
 }
 
-.time-text {
-    width: 162px;
-}
+/*.time-text {*/
+/*    width: 162px;*/
+/*}*/
 
-.email_text {
-    width: 143px;
-}
+/*.email_text {*/
+/*    width: 143px;*/
+/*}*/
 
-.phone_text {
-    width: 130px;
-}
+/*.phone_text {*/
+/*    width: 130px;*/
+/*}*/
 
     body.gridlock span#widget-header > section div.row {
         flex-wrap: nowrap;

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22070fc8-ee54-4902-99fd-6eb09cd7de2b" name="Changes" comment="change header">
+    <list default="true" id="22070fc8-ee54-4902-99fd-6eb09cd7de2b" name="Changes" comment="fix img">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/default.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
@@ -84,7 +84,7 @@
       <workItem from="1686597227186" duration="3490000" />
       <workItem from="1686638930224" duration="5090000" />
       <workItem from="1686692080074" duration="2937000" />
-      <workItem from="1686701668142" duration="2370000" />
+      <workItem from="1686701668142" duration="9383000" />
     </task>
     <task id="LOCAL-00001" summary="change ukr">
       <created>1686138253988</created>
@@ -142,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686701852020</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix img">
+      <created>1686830143995</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686830143996</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +177,7 @@
     <MESSAGE value="change style burger menu" />
     <MESSAGE value="q" />
     <MESSAGE value="change header" />
-    <option name="LAST_COMMIT_MESSAGE" value="change header" />
+    <MESSAGE value="fix img" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix img" />
   </component>
 </project>
